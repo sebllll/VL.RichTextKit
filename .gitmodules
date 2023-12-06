@@ -1,5 +1,5 @@
 [submodule "RichTextKit"]
-	path = buildtools
+	path = src/RichTextKit
 	url = git@github.com:sebllll/RichTextKit.git
 	branch = VL-upgrade
 	
