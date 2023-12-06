@@ -134,7 +134,7 @@
           <Node Bounds="576,1023,141,19" Id="FhkQmezM6DdOv6AiNqJMlm">
             <p:NodeReference LastCategoryFullName="Skia.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="BuildRichstring (Measure)" />
+              <Choice Kind="ProcessAppFlag" Name="BuildRichstring" />
             </p:NodeReference>
             <Pin Id="KiczpYYysYeLXv9CuXKB0P" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HicvsXPpJxAOjB569E8k8b" Name="Input" Kind="InputPin" />
@@ -154,8 +154,6 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="BjNq9sRXLUwN0d1S6rm75H" Name="Output" Kind="OutputPin" />
-            <Pin Id="NoCG30fkqfLNh8XxiVnSAn" Name="TextBounds" Kind="OutputPin" />
-            <Pin Id="BSPR5a19ZYqN0ecCAqD04O" Name="margins" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Pad Id="Iti1Y9A3O5hMGuCRI6Cs5P" Comment="Translation" Bounds="632,1316,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1.1">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
@@ -219,7 +217,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="1388, 240, 525, 516" IsHidden="true" />
+            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="1521, 483, 525, 516" IsHidden="true" />
             <Pin Id="Lq6jZ0NGc1kLxK3OMB6EP1" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="CKh0KZywOhLN2NPLJaXJlb" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="RG5ZFOlLKZZN7F4UXybY9f" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -237,7 +235,7 @@
             <Pin Id="NKj9BTeaeefLJO0BLr0Sft" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="UO2aUw604zVO6FV3zFu4go" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="CEWbnUQPR0rM2AieO5kzmq" Comment="Underline" Bounds="769,395,134,15" ShowValueBox="true" isIOBox="true" Value="None">
+          <Pad Id="CEWbnUQPR0rM2AieO5kzmq" Comment="Underline" Bounds="769,395,134,15" ShowValueBox="true" isIOBox="true" Value="Gapped">
             <p:TypeAnnotation LastCategoryFullName="Topten.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="TypeFlag" Name="UnderlineStyle" />
             </p:TypeAnnotation>
@@ -471,7 +469,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Overlay Id="RLvyS3jgYMsMXVkMBe0X0C" Name="selection" Bounds="218,848,294,214" />
-          <Pad Id="OO1cILafn7hPMa9MnNFxhz" Comment="TextDirection" Bounds="1460,521,45,15" ShowValueBox="true" isIOBox="true" Value="LTR">
+          <Pad Id="OO1cILafn7hPMa9MnNFxhz" Comment="TextDirection" Bounds="1460,521,45,15" ShowValueBox="true" isIOBox="true" Value="Auto">
             <p:TypeAnnotation LastCategoryFullName="Topten.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="TypeFlag" Name="TextDirection" />
             </p:TypeAnnotation>
@@ -569,7 +567,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IFZv12WOaMOOZQ2Ym46p4G" Comment="HitTest" Bounds="618,1095,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="IFZv12WOaMOOZQ2Ym46p4G" Comment="HitTest" Bounds="618,1095,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -648,7 +646,6 @@
         <Link Id="H4niZG9APoSPzr8padYbjH" Ids="OO1cILafn7hPMa9MnNFxhz,RFvCSNw6Hx2NQtEDtKXaWd" />
         <Link Id="FizqBsp719wPMhwlvQWpjo" Ids="OO1cILafn7hPMa9MnNFxhz,JBvEopSX1uNMAWKHVImDvx" />
         <Link Id="Cl5dkLeJ0XoLrBia3N738m" Ids="AIOZ4mD2mm8NaqH87L8sMx,QZcd7aSBsSiLtp1LfVV8Lk" />
-        <Link Id="QBZ2oigPBUdLAOisLovZsZ" Ids="NoCG30fkqfLNh8XxiVnSAn,IXQVMI64YvhNsDAPkbXTQp" />
         <Link Id="U2izSoA2x2YND0NQ5SLGEM" Ids="U2mkCJ4UmakNjsxuMbXsIt,PfJCOr1gTjOLfsYA8fPMLS" />
         <Link Id="Dfc2VN1joTyPACuto7Bmih" Ids="RPOhpMdqhY4Pox0N3knNaz,G9vv1V2gtU7OoLbLDT1Qdl" />
         <Link Id="Sepl1aYY2dwL71Chx5fhc6" Ids="Iti1Y9A3O5hMGuCRI6Cs5P,UhbatGVUUwlNFc184frylo" />
