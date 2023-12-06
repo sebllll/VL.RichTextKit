@@ -121,7 +121,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DmiCsUPnl70M21HcTip7BT" Comment="Max Width" Bounds="612,882,35,15" ShowValueBox="true" isIOBox="true" Value="1.58">
+          <Pad Id="DmiCsUPnl70M21HcTip7BT" Comment="Max Width" Bounds="612,882,35,15" ShowValueBox="true" isIOBox="true" Value="2.02">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -134,7 +134,7 @@
           <Node Bounds="576,1023,141,19" Id="FhkQmezM6DdOv6AiNqJMlm">
             <p:NodeReference LastCategoryFullName="Skia.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="BuildRichstring" />
+              <Choice Kind="ProcessAppFlag" Name="BuildRichstring (Measure)" />
             </p:NodeReference>
             <Pin Id="KiczpYYysYeLXv9CuXKB0P" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HicvsXPpJxAOjB569E8k8b" Name="Input" Kind="InputPin" />
@@ -154,8 +154,10 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="BjNq9sRXLUwN0d1S6rm75H" Name="Output" Kind="OutputPin" />
+            <Pin Id="UjFG2KC6rU1L1g3ZxZ5UWt" Name="TextBounds" Kind="OutputPin" />
+            <Pin Id="MVnsvjyNQ1SNmYFRlTrZsb" Name="margins" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Pad Id="Iti1Y9A3O5hMGuCRI6Cs5P" Comment="Translation" Bounds="632,1316,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1.1">
+          <Pad Id="Iti1Y9A3O5hMGuCRI6Cs5P" Comment="Translation" Bounds="632,1316,35,28" ShowValueBox="true" isIOBox="true" Value="0.55, 1.33">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
@@ -235,7 +237,7 @@
             <Pin Id="NKj9BTeaeefLJO0BLr0Sft" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="UO2aUw604zVO6FV3zFu4go" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="CEWbnUQPR0rM2AieO5kzmq" Comment="Underline" Bounds="769,395,134,15" ShowValueBox="true" isIOBox="true" Value="Gapped">
+          <Pad Id="CEWbnUQPR0rM2AieO5kzmq" Comment="Underline" Bounds="769,395,134,15" ShowValueBox="true" isIOBox="true" Value="None">
             <p:TypeAnnotation LastCategoryFullName="Topten.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="TypeFlag" Name="UnderlineStyle" />
             </p:TypeAnnotation>
@@ -265,7 +267,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="S4RofZS46FoPXzIp1dCd0h" Comment="HaloWidth" Bounds="869,544,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="S4RofZS46FoPXzIp1dCd0h" Comment="HaloWidth" Bounds="869,544,35,15" ShowValueBox="true" isIOBox="true" Value="0.45">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -491,7 +493,7 @@
               <Choice Kind="TypeFlag" Name="CommonSpace" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="713,1145,120,19" Id="QgEboP4eQsoOuq7rhX6S8y">
+          <Node Bounds="712,1145,120,19" Id="QgEboP4eQsoOuq7rhX6S8y">
             <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Graphics.Skia" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawRichStringHelpers" />
@@ -562,12 +564,12 @@
           <Pad Id="UQIEMiq020SPhfqIh2Ilwc" Comment="Code Point Index" Bounds="997,1381,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="FK2oKnkGYNVParVjUDKKXd" SlotId="BbY0OpzDhVzLxUyZTA9xHf" Bounds="929,1380" />
           <Pad Id="CpaJUPSIPrmPRmupEyLplN" SlotId="BbY0OpzDhVzLxUyZTA9xHf" Bounds="266,930" />
-          <Pad Id="UViPVeBmzGuO9xZmnPylEZ" Comment="Alpha" Bounds="830,1122,35,15" ShowValueBox="true" isIOBox="true" Value="0.43">
+          <Pad Id="UViPVeBmzGuO9xZmnPylEZ" Comment="Alpha" Bounds="829,1122,35,15" ShowValueBox="true" isIOBox="true" Value="0.43">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IFZv12WOaMOOZQ2Ym46p4G" Comment="HitTest" Bounds="618,1095,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="IFZv12WOaMOOZQ2Ym46p4G" Comment="HitTest" Bounds="618,1095,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -668,9 +670,11 @@
         <Link Id="SEouASoPmHyLXVjdUtEBUg" Ids="IWYDa8c2YJnP5QHfH6cT6i,UHU9UNVQtH2MwQGvjqSdmA" />
         <Link Id="G7zJuturcctPlLrIKZ6Wjc" Ids="PYb40o6z0i2NskStDiPjKB,QMwkSnymvpPOkFuXjhsj6b" />
         <Link Id="URRFXhKqwMpLMelGjnkk6P" Ids="BE4r9LAeG0lQPhRWoLswaA,UbDBdP4ihKHN4z5nPn7eAV" />
+        <Link Id="CDH2DLoUV4oL8oiMyA6iVR" Ids="UjFG2KC6rU1L1g3ZxZ5UWt,IXQVMI64YvhNsDAPkbXTQp" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2023.5.3-0368-g2897901e27" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
+  <NugetDependency Id="IkQOtHrwYmnNkpfy3mYaGm" Location="HarfBuzzSharp" Version="7.3.0" />
 </Document>
