@@ -4588,6 +4588,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2023.5.3-0368-g2897901e27" />
-  <PlatformDependency Id="IFx6aC52CdZN0yczjLoPKH" Location="./lib/net6.0/Debug/Topten.RichTextKit.dll" />
-  <NugetDependency Id="UMJfwjSuBGDPRcj45MpQRi" Location="HarfBuzzSharp" Version="2.8.2.3" />
+  <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
 </Document>

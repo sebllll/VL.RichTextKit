@@ -471,7 +471,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Overlay Id="RLvyS3jgYMsMXVkMBe0X0C" Name="selection" Bounds="218,848,294,214" />
-          <Pad Id="OO1cILafn7hPMa9MnNFxhz" Comment="TextDirection" Bounds="1460,521,45,15" ShowValueBox="true" isIOBox="true" Value="Auto">
+          <Pad Id="OO1cILafn7hPMa9MnNFxhz" Comment="TextDirection" Bounds="1460,521,45,15" ShowValueBox="true" isIOBox="true" Value="LTR">
             <p:TypeAnnotation LastCategoryFullName="Topten.RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="TypeFlag" Name="TextDirection" />
             </p:TypeAnnotation>
@@ -676,5 +676,5 @@
   </Patch>
   <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2023.5.3-0368-g2897901e27" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
-  <NugetDependency Id="IkQOtHrwYmnNkpfy3mYaGm" Location="HarfBuzzSharp" Version="7.3.0" />
+  <NugetDependency Id="IkQOtHrwYmnNkpfy3mYaGm" Location="HarfBuzzSharp" Version="2.8.2.3" />
 </Document>
