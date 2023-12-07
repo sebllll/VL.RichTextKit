@@ -1553,6 +1553,11 @@
             cached SKPaint
             </summary>
         </member>
+        <member name="F:Topten.RichTextKit.FontRun._paintBackground">
+            <summary>
+            cached SKPaint
+            </summary>
+        </member>
         <member name="P:Topten.RichTextKit.FontRun.NextRun">
             <summary>
             Get the next font run from this one
@@ -1641,11 +1646,12 @@
             <param name="ctx"></param>
             <param name="alpha"> transparency</param>
         </member>
-        <member name="M:Topten.RichTextKit.FontRun.PaintBackground(Topten.RichTextKit.PaintTextContext)">
+        <member name="M:Topten.RichTextKit.FontRun.PaintBackground(Topten.RichTextKit.PaintTextContext,System.Single)">
             <summary>
             Paint background of this font run
             </summary>
             <param name="ctx"></param>
+            <param name="alpha"></param>
         </member>
         <member name="T:Topten.RichTextKit.FontRunKind">
             <summary>
@@ -3777,6 +3783,7 @@
             Paint this line
             </summary>
             <param name="ctx">The paint context</param>
+            <param name="alpha">a global alpha factor</param>
         </member>
         <member name="P:Topten.RichTextKit.TextLine.Start">
             <summary>
