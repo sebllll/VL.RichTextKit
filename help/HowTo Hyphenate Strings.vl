@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="M1CqRuMuybhNPnLYDBhm1P" LanguageVersion="2023.5.3-0380-g4d7f3342a6" Version="0.128">
+  <NugetDependency Id="G5ysRmpjEqQMu4GXXljFSp" Location="VL.CoreLib" Version="2023.5.3-0380-g4d7f3342a6" />
+  <Patch Id="AxrZQ5hYpQWOoKe0wZSUSf">
+    <Canvas Id="ERZcrH0ESAALuV2HyNkhJt" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="NJCJiJaSt8VQS4ZJTCaAEn">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="QftwHffhrHdMP9WhdrWQle">
+        <Canvas Id="ANQ9sWa1UmTQDcjzPecuOw" CanvasType="Group">
+          <Pad Id="OeAS80OLkXeOlEyNuFj6eA" Comment="Dic File" Bounds="128,151,354,15" ShowValueBox="true" isIOBox="true" Value="..\hyph_en_US.dic">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="LvRuXLbJISFNm66Tqqo3ur" Comment="Input" Bounds="154,245,269,117" ShowValueBox="true" isIOBox="true" Value="Test-string&#xD;&#xA;motherfuckers can speak english.&#xD;&#xA;And in order to test this thing, we feed it a whole paragraph - with some extra characters - so we can judge the result.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:shownonprintablechars p:Type="Boolean">false</p:shownonprintablechars>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="KPzkm4yq36UOC417p6vrSo" Bounds="126,54,349,57" ShowValueBox="true" isIOBox="true" Value="we need a .dic file per language.&#xD;&#xA;&#xD;&#xA;You can get those for example from LibreOffice:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="V6rRi2KpO7mNsZndkYJUSI" Bounds="127,120,352,23" ShowValueBox="true" isIOBox="true" Value="https://github.com/LibreOffice/dictionaries/tree/master">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="126,738,85,19" Id="HtRsmXBQLYfMwvR2xstQsb">
+            <p:NodeReference LastCategoryFullName="VL.NHunspell" LastDependency="NHunspell.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Hyphenator" />
+            </p:NodeReference>
+            <Pin Id="RDpHEps0myYNpSlKR7tshW" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JZmDnHKCFmTNAO5WNnTc59" Name="dic" Kind="InputPin" />
+            <Pin Id="D3D09R05uxaMjZyjrVHhRn" Name="Input" Kind="InputPin" />
+            <Pin Id="RGHdy3pvSPsQUPEl1aFQiZ" Name="Pattern" Kind="InputPin" />
+            <Pin Id="PzLXbgGyfXsOvHCVI65yC7" Name="Hyphen Character" Kind="InputPin" />
+            <Pin Id="AFfyG61q9QuNouwpERn2bW" Name="Hyphenated Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="UNJiw4D2QKUOYSz6mLf1yK" Comment="Hyphenated Output" Bounds="128,862,322,188" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OiX69I2VAV6QZNEvE7rrU5" Bounds="437,279,478,178" ShowValueBox="true" isIOBox="true" Value="Here's some specialities:&#xD;&#xA;&#xD;&#xA;Note the &quot;-&quot; in Test-string. Those can occur in Strings and usually are an indicator that hyphenation at this position is possible.&#xD;&#xA;&#xD;&#xA;Note the 2 NewLine characters in the string. (you can see them, when enablingthe &quot;show non-=printable characters&quot; for the iobox)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="KzB5jEyVqFzNFXgu0skpHh" Comment="Pattern" Bounds="181,451,83,15" ShowValueBox="true" isIOBox="true" Value="([\r\n])|(\s)|(-)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="KhS9iC9ct5dLD5mgZFGkWK" Bounds="185,482,442,113" ShowValueBox="true" isIOBox="true" Value="This is the default pattern. Usually you don't need to change it.&#xD;&#xA;&#xD;&#xA;It's taking newlines, spaces and dashes into account.&#xD;&#xA;They are separating the input into words. The separators are kept in the output (that's what the parenthesis are doing)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="I7TmNkvEgd5NDLpryXCLuP" Comment="Hyphen Character" Bounds="208,643,35,15" ShowValueBox="true" isIOBox="true" Value="­">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:shownonprintablechars p:Type="Boolean">false</p:shownonprintablechars>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OIZfE7TYNjEQRjXXQJBQl4" Bounds="212,662,457,122" ShowValueBox="true" isIOBox="true" Value="This is not a dash, but a hyphen. Meaning, it's an invisible character, but is understood by text-break algorithms.&#xD;&#xA;&#xD;&#xA;Usually you don't need to change it.&#xD;&#xA;&#xD;&#xA;The VL IO-Box is displaying it though, which is very handy in this usecase.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="OSJIGaAwv9NNZT8jLntzqd" Name="Create" />
+        <Patch Id="L9ANnovUj6fQAC1PpcaTvC" Name="Update" />
+        <ProcessDefinition Id="Mqyim6UXXRHN0AclHwn0OZ">
+          <Fragment Id="MqmwPAxnMWxQNvg7kB35c8" Patch="OSJIGaAwv9NNZT8jLntzqd" Enabled="true" />
+          <Fragment Id="JxFzFCMYn2ePfzHGePZM9q" Patch="L9ANnovUj6fQAC1PpcaTvC" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="Cf1tk8Z4hlDQALDSDr4Hoi" Ids="OeAS80OLkXeOlEyNuFj6eA,JZmDnHKCFmTNAO5WNnTc59" />
+        <Link Id="MgJyld2lZZAPVyCx6m0KgF" Ids="LvRuXLbJISFNm66Tqqo3ur,D3D09R05uxaMjZyjrVHhRn" />
+        <Link Id="MVnw0yqTXyJLc3zO9R06oY" Ids="AFfyG61q9QuNouwpERn2bW,UNJiw4D2QKUOYSz6mLf1yK" />
+        <Link Id="UMxEQvg91NPQSyjwfmiz5w" Ids="KzB5jEyVqFzNFXgu0skpHh,RGHdy3pvSPsQUPEl1aFQiZ" />
+        <Link Id="D9o4Lk9sNacQGrFliFJWIF" Ids="I7TmNkvEgd5NDLpryXCLuP,PzLXbgGyfXsOvHCVI65yC7" />
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="Om5bnSsP8UzPDSXvUoHiT8" Location="../NHunspell.vl" />
+  <NugetDependency Id="BLIheZeBjQgNeKUghXuzh9" Location="NHunspell" Version="1.2.5554.16953" />
+</Document>
