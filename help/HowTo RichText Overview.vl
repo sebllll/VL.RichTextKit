@@ -883,5 +883,4 @@
   </Patch>
   <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2023.5.3-0380-g4d7f3342a6" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
-  <NugetDependency Id="IkQOtHrwYmnNkpfy3mYaGm" Location="HarfBuzzSharp" Version="2.8.2.3" />
 </Document>

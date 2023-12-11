@@ -164,6 +164,15 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
+            <Pad Id="EKnks99pUY4PyKXD6NfTVI" SlotId="NoLCA5tPRPvLqKb0b80Blk" Bounds="814,1265" />
+            <Pad Id="IqE0xZzj7EuL3qtzGL5ppx" Comment="Changed" Bounds="812,1215,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
           </Canvas>
           <Link Id="VJW2Clb18elPdQNiD9ocTu" Ids="Ru3swLWZ8M3NOZ82iblUxB,AkDUHggNFHnPpFW4FBNQSc" IsHidden="true" />
           <Link Id="QS4Yemo6UOdMHcRBlIMtJt" Ids="P1qDIgP6u1TP3ytC8oxGLC,EzVIEnr1q3nOgNTjKGHpEc" IsHidden="true" />
@@ -245,7 +254,7 @@
           <Patch Id="V2h7aGvdyZiLFF8pIkQ2u1" Name="Split">
             <Pin Id="VEY8eEI74LbL29A8GVkmNC" Name="Style" Kind="OutputPin" />
           </Patch>
-          <Patch Id="O0zkQXOAmLFOio4IBU2KB5" Name="IsChanged">
+          <Patch Id="O0zkQXOAmLFOio4IBU2KB5" Name="IsChanged" ParticipatingElements="FkGiuUKGrZYQQTZrxxZrTb">
             <Pin Id="NnyXfHVYlwfL0q2BDJktsd" Name="Has Changed" Kind="OutputPin" />
           </Patch>
           <Patch Id="G951Lwm8lg0PrgS48uqrgf" Name="CreateDefault" ParticipatingElements="MghW6nfMZwYNipcMYyLzpc" />
@@ -279,6 +288,7 @@
             <Pin Id="ItXuaS5i1C5QZ89NhA8vSV" Name="Input" Kind="InputPin" />
           </Patch>
           <Link Id="Bj4eMvXexklNvbgb2IZQ3N" Ids="N9YbdPLNhruOaltf0rBnel,NcA7tlQZ3AMM2oeQjDHQ44" />
+          <Link Id="FkGiuUKGrZYQQTZrxxZrTb" Ids="IqE0xZzj7EuL3qtzGL5ppx,EKnks99pUY4PyKXD6NfTVI" />
         </Patch>
       </Node>
       <Canvas Id="TDTT9y26QIJLXH31J2tqFr" Name="Advanced" Position="259,369">
@@ -4909,4 +4919,5 @@
   </Patch>
   <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2023.5.3-0380-g4d7f3342a6" />
   <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
+  <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="2.8.2.3" />
 </Document>
