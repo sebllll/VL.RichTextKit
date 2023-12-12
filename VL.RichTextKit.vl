@@ -2384,6 +2384,7 @@
               </Node>
               <ControlPoint Id="TOD3z8EG0TONGJA6Pys0Ub" Bounds="174,505" />
               <ControlPoint Id="JOtp6t0E8ogOxNPYuTDnSh" Bounds="425,417" />
+              <ControlPoint Id="OXZ35AGmj40LxnI6o1h92I" Bounds="403,367" />
             </Canvas>
             <Link Id="TzCh54FRsEQMSIQIv3d0oY" Ids="NA5QN6XA0tbN6PDB63VKa5,NYmcRR18KCZPhhfVW0zjid" IsHidden="true" />
             <Link Id="AnN038qCf1jPIZFgdWOx5O" Ids="NYmcRR18KCZPhhfVW0zjid,OyzbMHwNoafNz0hRe0QB1F" />
@@ -2457,6 +2458,7 @@
               <Pin Id="KZLLHgWMaTLM87ebXJGinX" Name="Enabled" Kind="InputPin" Bounds="599,386" />
               <Pin Id="NGXwnveN8lCOc7UU7O7RL2" Name="Output" Kind="OutputPin" Bounds="492,979" />
               <Pin Id="M7WhJeEj6d0OKR75cxZBjR" Name="HitTestResult" Kind="OutputPin" Bounds="14,818" />
+              <Pin Id="LrHwqQ3N1L8NiuAsxrSaKF" Name="Paint" Kind="InputPin" Bounds="403,367" />
             </Patch>
             <Patch Id="LVsU0vwTEj8MpLzWeKCAVe" Name="RenderingOptions">
               <Pin Id="M3sZ2geEzoIOW9IO2yPqgU" Name="Antialias" Kind="InputPin" DefaultValue="True" Visibility="Optional">
@@ -2517,6 +2519,8 @@
             <Link Id="DIweoqI7nyjPzRaIA0TD5n" Ids="S6n4DwaZJztOWmJwpuvuC2,JOtp6t0E8ogOxNPYuTDnSh" IsHidden="true" />
             <Link Id="JiIcexwhHwzLPhVW5kf7nm" Ids="JOtp6t0E8ogOxNPYuTDnSh,KIlTP5Mumd9LotJ5jWzYEH" />
             <Link Id="NkD6ttbWDv6NBG3XrB6OOl" Ids="Vr3XpVqcRZQNwuzDHGBMNe,RllZ2BUjlPQPZIXWqyro2H" />
+            <Link Id="BuWGloeotXgMfpEzFrS4rd" Ids="OXZ35AGmj40LxnI6o1h92I,VZEhuEvxX1mO7cTtQoo7qU" />
+            <Link Id="TYbpW3Tomr3LwFVQGxxr2d" Ids="LrHwqQ3N1L8NiuAsxrSaKF,OXZ35AGmj40LxnI6o1h92I" IsHidden="true" />
           </Patch>
         </Node>
         <!--
