@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2023.5.3-0380-g4d7f3342a6" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2023.5.3-0380-g4d7f3342a6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.0-0011-g82e0e7bf49" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.0-0011-g82e0e7bf49" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -4630,7 +4630,7 @@
                 <Choice Kind="OperationCallFlag" Name="OverLine" />
               </p:NodeReference>
               <Pin Id="GL9yzaUXsjZLE0YfU6gzj9" Name="Input" Kind="StateInputPin" />
-              <Pin Id="C4SbWUzm3xIPjuevnQDqt1" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="C4SbWUzm3xIPjuevnQDqt1" Name="Output" Kind="OutputPin" />
               <Pin Id="DRoZjvhpULiMxRfj79qAqw" Name="Over Line" Kind="OutputPin" />
             </Node>
             <Pad Id="AsBuJ2zE606PbLZb9Csz5d" Comment="Over Line" Bounds="612,657,35,15" ShowValueBox="true" isIOBox="true" />
@@ -4641,7 +4641,7 @@
                 <Choice Kind="OperationCallFlag" Name="CaretPosition" />
               </p:NodeReference>
               <Pin Id="OxNjK0Q9B0ZP2fYjLZeteq" Name="Input" Kind="StateInputPin" />
-              <Pin Id="TbqtmSRE0X2NUPSjESJuCR" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="TbqtmSRE0X2NUPSjESJuCR" Name="Output" Kind="OutputPin" />
               <Pin Id="Fs70ZbnoPD7NoQBZqbicRW" Name="Caret Position" Kind="OutputPin" />
             </Node>
             <Node Bounds="311,244,88,26" Id="JxdskIveK2ENn2MITiD7ds">
@@ -4725,7 +4725,7 @@
                 <Choice Kind="OperationCallFlag" Name="CaretRectangle" />
               </p:NodeReference>
               <Pin Id="B7M58DpYo81N07gGb7Fewo" Name="Input" Kind="StateInputPin" />
-              <Pin Id="LYNBuQrxne5PChyLwS7v5z" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="LYNBuQrxne5PChyLwS7v5z" Name="Output" Kind="OutputPin" />
               <Pin Id="RfYUUgOot1kLqHCoGb0Lzn" Name="Caret Rectangle" Kind="OutputPin" />
             </Node>
             <Node Bounds="311,630,72,19" Id="TgVBXrDxXaRPJ0K7dbUZz0">
@@ -4921,7 +4921,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2023.5.3-0380-g4d7f3342a6" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.0-0011-g82e0e7bf49" />
   <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="2.8.2.3" />
 </Document>
