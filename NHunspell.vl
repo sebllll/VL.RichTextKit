@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="VsobGBXeOC5PyGTfqHior8" LanguageVersion="2023.5.3-0380-g4d7f3342a6" Version="0.128">
-  <NugetDependency Id="Mxqs2DZFB8yPHuUeX7HCjm" Location="VL.CoreLib" Version="2023.5.3-0380-g4d7f3342a6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="VsobGBXeOC5PyGTfqHior8" LanguageVersion="2024.6.2" Version="0.128">
+  <NugetDependency Id="Mxqs2DZFB8yPHuUeX7HCjm" Location="VL.CoreLib" Version="2024.6.2" />
   <Patch Id="A43B4F6bm12OTJCTPkYszj">
     <Canvas Id="K90EfkxhH9iLM6RSQiafyt" DefaultCategory="VL.NHunspell" CanvasType="FullCategory">
       <Pad Id="VVL1RvPrqNAOHh8pXolu5Q" Bounds="642,569,71,19" ShowValueBox="true" isIOBox="true" Value="SetDllPath">
@@ -76,12 +76,11 @@
                   </p:NodeReference>
                   <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                   <Pin Id="AmVqtutW80fNg7D4081Y25" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="HkoOhscgRznOE8Q5JVeRry" Name="Category" Kind="InputPin" />
+                  <Pin Id="EFU77oB7DkGOM03Vy1gYWD" Name="Message" Kind="InputPin" />
                   <Pin Id="J28eB4191X4Pc9o57bEoyZ" Name="Log Level" Kind="InputPin" />
                   <Pin Id="PLAfv3s5cKaQBdL8ic6hDw" Name="Event Id" Kind="InputPin" />
+                  <Pin Id="HkoOhscgRznOE8Q5JVeRry" Name="Category" Kind="InputPin" />
                   <Pin Id="EieI9ZdZi8QLRxGdqAxUrj" Name="Exception" Kind="InputPin" />
-                  <Pin Id="EFU77oB7DkGOM03Vy1gYWD" Name="Message" Kind="InputPin" />
-                  <Pin Id="AIq0vF63w7uMxcbYhwAhHn" Name="Args" Kind="InputPin" />
                   <Pin Id="BLP9eUJdgjlOYCUO8zlR1q" Name="Apply" Kind="InputPin" />
                 </Node>
                 <Pad Id="ObpdwwawTNwOlHQKHDY5ZR" Comment="Log Level" Bounds="719,1010,77,15" ShowValueBox="true" isIOBox="true" Value="Error">
@@ -478,5 +477,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="LSBipM3usUCM6gg2vreEoZ" Location="NHunspell" Version="1.2.5554.16953" />
-  <NugetDependency Id="DsTwoCj7e83MJDwgEVPtsW" Location="VL.CoreLib.Windows" Version="2023.5.3-0380-g4d7f3342a6" />
+  <NugetDependency Id="DsTwoCj7e83MJDwgEVPtsW" Location="VL.CoreLib.Windows" Version="2024.6.2" />
 </Document>
