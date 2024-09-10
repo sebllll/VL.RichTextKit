@@ -5424,21 +5424,6 @@ And again, here's </Item>
                   <Pin Id="VUxAD7UJt2pNG6VYDLOJTh" Name="Output" Kind="OutputPin" />
                   <Pin Id="QhmuUP6TxWPOpPMrLtqEXG" Name="Input 3" Kind="InputPin" DefaultValue="&lt;/doc&gt;" />
                 </Node>
-                <Node Bounds="288,232,50,19" Id="MDsJwAeIyaUO8QDK02xmYa">
-                  <p:NodeReference LastCategoryFullName="Markdig.Markdown" LastDependency="Markdig.dll" OverloadStrategy="AllPinsThatAreNotCommon">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Markdig" />
-                    <CategoryReference Kind="AssemblyCategory" Name="Markdown" />
-                    <Choice Kind="OperationCallFlag" Name="ToHtml" />
-                    <PinReference Kind="InputPin" Name="Markdown" />
-                    <PinReference Kind="InputPin" Name="Context" />
-                    <PinReference Kind="OutputPin" Name="Output" />
-                  </p:NodeReference>
-                  <Pin Id="OAmCG4eW3wdN2e4hSuO8ns" Name="Markdown" Kind="InputPin" />
-                  <Pin Id="Cv2d3XKc8AwOCLAcUwrP1u" Name="Pipeline" Kind="InputPin" />
-                  <Pin Id="OiNcVd06cLeNyU5poMG0sr" Name="Context" Kind="InputPin" />
-                  <Pin Id="Nc8S1L9r0RIPkvOtmonzcV" Name="Output" Kind="OutputPin" />
-                </Node>
                 <Node Bounds="220,408,582,672" Id="DUWPEjJZUpiMjXavL0oANL">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -5701,7 +5686,6 @@ And again, here's </Item>
           <Link Id="LffEXRe7VyoO5oKmkvnICf" Ids="BGCpCnsZyzGLscLhZC9GGh,G26d1ZulgKKPkCxv2l60ZT" />
           <Link Id="PFnkuuDl7noQAp81KKCxBm" Ids="MN2wuVbjSGZM5E5amK95uD,Jq178auRIvnMTtx7fn3pBm" />
           <Link Id="UbT3D3et3OuLLH7ztIPYr8" Ids="L7fGPtCkri5M6bzeD1ejqu,MlmvHK1SadYPy4XSlove3H" />
-          <Link Id="PvRRxaiR5RtO5aDppKHfhA" Ids="MlmvHK1SadYPy4XSlove3H,OAmCG4eW3wdN2e4hSuO8ns" />
           <Link Id="MBf7EJDjzxkNd9q28sgPF0" Ids="Db3ueO5TYZkN8Ddx2B9LCn,TF0qy9oGineOvYkg04884V" />
           <Link Id="CT0mlFdMUYSPnu8IgBsd5i" Ids="TF0qy9oGineOvYkg04884V,HSbgcidU3OSN4LgXfzfBZL" />
           <Link Id="KvBHWebPDb7QLMbJvWIcd1" Ids="MF958AuX6TkP9Yf7al1iRL,HUA5Tw1WD3DMbS7MfC3QiA" />
