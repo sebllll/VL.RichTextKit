@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0160-g2e7a1296d2" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0160-g2e7a1296d2" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -5373,10 +5373,10 @@ And again, here's </Item>
                 <p:maxvisibleentries p:Type="Int32">21</p:maxvisibleentries>
               </p:ValueBoxSettings>
             </Pad>
-            <ControlPoint Id="Db3ueO5TYZkN8Ddx2B9LCn" Bounds="514,185" />
+            <ControlPoint Id="Db3ueO5TYZkN8Ddx2B9LCn" Bounds="514,95" />
             <ControlPoint Id="G9cnb6iCVL4M8uVVLiv5ok" Bounds="549,1162" />
-            <ControlPoint Id="L7fGPtCkri5M6bzeD1ejqu" Bounds="237,185" />
-            <Node Bounds="168,204,646,937" Id="I1HfxWfOV3kMOr8Z8bEP4M">
+            <ControlPoint Id="L7fGPtCkri5M6bzeD1ejqu" Bounds="237,95" />
+            <Node Bounds="168,118,646,1023" Id="I1HfxWfOV3kMOr8Z8bEP4M">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -5385,15 +5385,15 @@ And again, here's </Item>
               <Pin Id="PQzVaLUk5CvN7e1bxp2ngW" Name="Force" Kind="InputPin" />
               <Pin Id="ItOmSnrLkf2OVcwDXAWnUm" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="S0LaKpmMvRTMnLwY2Vxztx" Name="Has Changed" Kind="OutputPin" />
-              <ControlPoint Id="MlmvHK1SadYPy4XSlove3H" Bounds="237,210" Alignment="Top" />
-              <ControlPoint Id="TF0qy9oGineOvYkg04884V" Bounds="514,210" Alignment="Top" />
+              <ControlPoint Id="MlmvHK1SadYPy4XSlove3H" Bounds="237,124" Alignment="Top" />
+              <ControlPoint Id="TF0qy9oGineOvYkg04884V" Bounds="514,124" Alignment="Top" />
               <ControlPoint Id="HUA5Tw1WD3DMbS7MfC3QiA" Bounds="549,1135" Alignment="Bottom" />
               <ControlPoint Id="V4afgHRD746M3pFhA1a3m7" Bounds="360,1135" Alignment="Bottom" />
               <ControlPoint Id="LkKhAwJ9WofQY2higm1yrX" Bounds="309,1135" Alignment="Bottom" />
               <Patch Id="MFyrlbznKkNQIVlM1IQ55u" ManuallySortedPins="true">
                 <Patch Id="BOQ5Q5zC8gTLBwGKpuJTH4" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="V0oG3oNArhIP0sZuZE5aK6" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="215,305,41,19" Id="VgXSG10Auq8OSRFZQCa1um">
+                <Node Bounds="215,322,41,19" Id="VgXSG10Auq8OSRFZQCa1um">
                   <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="XML" />
@@ -5403,7 +5403,7 @@ And again, here's </Item>
                   <Pin Id="PLksyHrYWeVLDFYFpgh7iu" Name="Options" Kind="InputPin" />
                   <Pin Id="Sc2ACAtoSg3QbnQXBVa94u" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="215,341,65,26" Id="MJqW3GTsDrDQT3YFdm9CUh">
+                <Node Bounds="215,358,65,26" Id="MJqW3GTsDrDQT3YFdm9CUh">
                   <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="XElement (Split)" />
@@ -5414,7 +5414,7 @@ And again, here's </Item>
                   <Pin Id="Dxute88jjOwOUV1vnu7AFl" Name="Children" Kind="OutputPin" />
                   <Pin Id="EVrOSgCNKYWNZKWxEJM7TK" Name="Attributes" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="215,264,45,19" Id="PuSwu2leYocPX99lZxRUdx">
+                <Node Bounds="215,141,45,19" Id="PuSwu2leYocPX99lZxRUdx">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="+" />
@@ -5621,9 +5621,33 @@ And again, here's </Item>
                   <Pin Id="C3ID7sYuUI0NnWynVOtYh9" Name="Input" Kind="StateInputPin" />
                   <Pin Id="MF958AuX6TkP9Yf7al1iRL" Name="Output" Kind="StateOutputPin" />
                 </Node>
+                <Node Bounds="215,266,51,26" Id="JHJmBl4RVq3P375c8cP3jh">
+                  <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationCallFlag" Name="Replace" />
+                  </p:NodeReference>
+                  <Pin Id="U4fmXEyjRLZLO3XkZsDKyO" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="PFwGsTqBBY6O0BIuDavrEM" Name="Old Value" Kind="InputPin" />
+                  <Pin Id="CDVruwwovsnMT7gF255ZgG" Name="New Value" Kind="InputPin" />
+                  <Pin Id="EVOGI6iewfZNlkvP5jw6ZS" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Pad Id="BxK1U0ANRitNgwwHZrYWNd" Comment="" Bounds="240,226,35,15" ShowValueBox="true" isIOBox="true" Value="&lt;br&gt;">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="String" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Node Bounds="261,239,54,19" Id="L9JTtACNoybMjf62h3fIaL">
+                  <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationCallFlag" Name="NewLine" />
+                  </p:NodeReference>
+                  <Pin Id="M5veRaO1bG3MnArKvQyi1z" Name="New Line" Kind="OutputPin" />
+                </Node>
               </Patch>
             </Node>
-            <Pad Id="JoXJBabwbRHMzrNuHlACJh" Bounds="128,99,437,24" ShowValueBox="true" isIOBox="true" Value="This one uses some Nodes from System.Xml and System.Xml.Linq">
+            <Pad Id="JoXJBabwbRHMzrNuHlACJh" Bounds="128,24,437,24" ShowValueBox="true" isIOBox="true" Value="This one uses some Nodes from System.Xml and System.Xml.Linq">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -5632,7 +5656,7 @@ And again, here's </Item>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="DeW4Jqy2HoTOHhf26JZuqI" Comment="Force" Bounds="167,145,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+            <Pad Id="DeW4Jqy2HoTOHhf26JZuqI" Comment="Force" Bounds="170,55,35,35" ShowValueBox="true" isIOBox="true" Value="false">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
@@ -5640,6 +5664,9 @@ And again, here's </Item>
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
+            <Overlay Id="DfFPsA1JQfEMfFLqL6xpS0" Name="can't be done by XML..." Bounds="187,185,293,114">
+              <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
+            </Overlay>
           </Canvas>
           <ProcessDefinition Id="OYzpEwCrHHyOwHZfnwQ9tP">
             <Fragment Id="I6rJnH57ZseLhxIhaYKcK2" Patch="GLEDtgeiVqxN2XHFtglY0x" Enabled="true" />
@@ -5655,7 +5682,6 @@ And again, here's </Item>
             <Pin Id="Qn2k17aA0pEPiAvayxPgoF" Name="Output" Kind="OutputPin" />
           </Patch>
           <Link Id="Bz7mqW1omYVNtPN2yhQ0jF" Ids="Sc2ACAtoSg3QbnQXBVa94u,DM5MnJ6yJ7xOFSYQfBxTH3" />
-          <Link Id="RUiRV8B0rckQRMvN0sbNtI" Ids="VUxAD7UJt2pNG6VYDLOJTh,CgbKQUCvnjEMDJ7h0ePYb5" />
           <Link Id="HqIi3ptghFcNR9xD94ihHQ" Ids="Dxute88jjOwOUV1vnu7AFl,QXJEcBsiMznMO2U8JKWMq4" />
           <Link Id="NSWMRAYyOs8PuHUhsyWBEf" Ids="QXJEcBsiMznMO2U8JKWMq4,FvigH5MS5z2OohoNK4oMy6" />
           <Link Id="ESXekm9LPaEMYKgvRvBLUr" Ids="GK7B0NVRht9Ozjp8iEXM6O,BfFNM8ATpA3NJHC3LB1fHn" />
@@ -5698,6 +5724,10 @@ And again, here's </Item>
           <Link Id="K9WS8joZYvsMCV8uzJDUIS" Ids="RfEXactbFPgNP6RWqwyZiZ,A5ua7LcXRv7NWIVxID3VLN" />
           <Link Id="Jx36ULeTQyEPTIKrSLVUHz" Ids="MlmvHK1SadYPy4XSlove3H,HbGQ31reiDqLWF6MIphb6d" />
           <Link Id="VrnM45vbtjjQZC7HdUbF66" Ids="DeW4Jqy2HoTOHhf26JZuqI,PQzVaLUk5CvN7e1bxp2ngW" />
+          <Link Id="Vsh6lCLcMiQL3CsyoVWPDQ" Ids="VUxAD7UJt2pNG6VYDLOJTh,U4fmXEyjRLZLO3XkZsDKyO" />
+          <Link Id="TDNTj7JIKtMPlicQOFuiYU" Ids="EVOGI6iewfZNlkvP5jw6ZS,CgbKQUCvnjEMDJ7h0ePYb5" />
+          <Link Id="QQjHoSrPUnMPghaaEMRIMO" Ids="BxK1U0ANRitNgwwHZrYWNd,PFwGsTqBBY6O0BIuDavrEM" />
+          <Link Id="LR6yMnqn1ktNjFv6oqeoej" Ids="M5veRaO1bG3MnArKvQyi1z,CDVruwwovsnMT7gF255ZgG" />
         </Patch>
       </Node>
     </Canvas>
@@ -5722,7 +5752,7 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0160-g2e7a1296d2" />
   <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="2.8.2.3" />
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
