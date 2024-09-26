@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0160-g2e7a1296d2" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0160-g2e7a1296d2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0163-g402161e76e" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0163-g402161e76e" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -5344,35 +5344,6 @@ And again, here's </Item>
         </p:NodeReference>
         <Patch Id="TJ5h67RioENLtpaeuU26hU">
           <Canvas Id="IZDgiCdgXovL1clLvt470J" CanvasType="Group">
-            <Pad Id="A3Eb3JdQBLuOv95obBgmKA" Comment="" Bounds="362,1424,947,159" ShowValueBox="true" isIOBox="true">
-              <p:ValueBoxSettings>
-                <p:maxvisibleentries p:Type="Int32">21</p:maxvisibleentries>
-              </p:ValueBoxSettings>
-              <p:Value>
-                <Item>
-                  <Item>Text attributes </Item>
-                  <Item>italic</Item>
-                  <Item>, </Item>
-                  <Item>bold</Item>
-                  <Item>, </Item>
-                  <Item>monospace</Item>
-                  <Item>. That's all we want to parse and have...&#xD;
-And again, here's </Item>
-                  <Item>another italic string</Item>
-                  <Item> and </Item>
-                  <Item>another bold</Item>
-                  <Item> one.</Item>
-                </Item>
-                <Item>
-                  <Item>huhu</Item>
-                </Item>
-              </p:Value>
-            </Pad>
-            <Pad Id="D2XFRVIZRVcM3TDVHjCSad" Comment="" Bounds="311,1610,974,119" ShowValueBox="true" isIOBox="true">
-              <p:ValueBoxSettings>
-                <p:maxvisibleentries p:Type="Int32">21</p:maxvisibleentries>
-              </p:ValueBoxSettings>
-            </Pad>
             <ControlPoint Id="Db3ueO5TYZkN8Ddx2B9LCn" Bounds="514,95" />
             <ControlPoint Id="G9cnb6iCVL4M8uVVLiv5ok" Bounds="549,1354" />
             <ControlPoint Id="L7fGPtCkri5M6bzeD1ejqu" Bounds="237,95" />
@@ -5717,6 +5688,8 @@ And again, here's </Item>
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
+            <Pad Id="MLURzEkxzQcOKie7YcN90u" Comment="" Bounds="361,1434,618,60" ShowValueBox="true" isIOBox="true" />
+            <Pad Id="HhNe1K84cHeMC5919FPF1U" Comment="" Bounds="310,1578,603,60" ShowValueBox="true" isIOBox="true" />
           </Canvas>
           <ProcessDefinition Id="OYzpEwCrHHyOwHZfnwQ9tP">
             <Fragment Id="I6rJnH57ZseLhxIhaYKcK2" Patch="GLEDtgeiVqxN2XHFtglY0x" Enabled="true" />
@@ -5766,9 +5739,7 @@ And again, here's </Item>
           <Link Id="KvBHWebPDb7QLMbJvWIcd1" Ids="MF958AuX6TkP9Yf7al1iRL,HUA5Tw1WD3DMbS7MfC3QiA" />
           <Link Id="RvIbJQ2EiXnOdJKMCSf1D6" Ids="HUA5Tw1WD3DMbS7MfC3QiA,G9cnb6iCVL4M8uVVLiv5ok" />
           <Link Id="AXXkHGqFAcELJPNsa4Y3Pt" Ids="DhOjzgSFxmbQclfBLK9dS4,V4afgHRD746M3pFhA1a3m7" />
-          <Link Id="J1WDqLl2eGfMsJYIPYDQQr" Ids="V4afgHRD746M3pFhA1a3m7,A3Eb3JdQBLuOv95obBgmKA" />
           <Link Id="EYLs9Vmpt9TNFPFoDaNeAe" Ids="U2coGnTkhtqPIevk4QXzOc,LkKhAwJ9WofQY2higm1yrX" />
-          <Link Id="DlXSzYHGDqXMCCzUsZAgQn" Ids="LkKhAwJ9WofQY2higm1yrX,D2XFRVIZRVcM3TDVHjCSad" />
           <Link Id="L0sywwDcHHwMQ7RbUbTyXf" Ids="PZGV4L9NVitQRt2XYVjFq8,N6w7T2SH69xL16pRKOAwpT" />
           <Link Id="K9WS8joZYvsMCV8uzJDUIS" Ids="RfEXactbFPgNP6RWqwyZiZ,A5ua7LcXRv7NWIVxID3VLN" />
           <Link Id="Jx36ULeTQyEPTIKrSLVUHz" Ids="MlmvHK1SadYPy4XSlove3H,HbGQ31reiDqLWF6MIphb6d" />
@@ -5784,6 +5755,8 @@ And again, here's </Item>
           <Link Id="EjXyCb43EiVMjQFRaJDxUJ" Ids="Dxute88jjOwOUV1vnu7AFl,J6F9YO7t1zQPltXwlzaojy" />
           <Link Id="F0hMx2SMYTVP5qQIG27QRA" Ids="Ik9kiSEMoe9Oi5i7btZNt7,QM54qJ0n9kuOi7iNzOOQRt" />
           <Link Id="BDUPQaRmAl3M29RQHit4A2" Ids="QM54qJ0n9kuOi7iNzOOQRt,QXJEcBsiMznMO2U8JKWMq4" />
+          <Link Id="Eeahfw6BbMjLb6Vn5YNBsU" Ids="V4afgHRD746M3pFhA1a3m7,MLURzEkxzQcOKie7YcN90u" />
+          <Link Id="I9BTHhN4EIbL77bSfxTRKz" Ids="LkKhAwJ9WofQY2higm1yrX,HhNe1K84cHeMC5919FPF1U" />
         </Patch>
       </Node>
     </Canvas>
@@ -5808,7 +5781,7 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0160-g2e7a1296d2" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0163-g402161e76e" />
   <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="2.8.2.3" />
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
