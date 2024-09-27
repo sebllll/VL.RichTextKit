@@ -1639,12 +1639,24 @@
             <param name="topOverhang"></param>
             <param name="bottomOverhang"></param>
         </member>
+        <member name="M:Topten.RichTextKit.FontRun.Paint(Topten.RichTextKit.PaintTextContext)">
+            <summary>
+            Paint this font run
+            </summary>
+            <param name="ctx"></param>
+        </member>
         <member name="M:Topten.RichTextKit.FontRun.Paint(Topten.RichTextKit.PaintTextContext,System.Single)">
             <summary>
             Paint this font run
             </summary>
             <param name="ctx"></param>
             <param name="alpha"> transparency</param>
+        </member>
+        <member name="M:Topten.RichTextKit.FontRun.PaintBackground(Topten.RichTextKit.PaintTextContext)">
+            <summary>
+            Paint background of this font run
+            </summary>
+            <param name="ctx"></param>
         </member>
         <member name="M:Topten.RichTextKit.FontRun.PaintBackground(Topten.RichTextKit.PaintTextContext,System.Single)">
             <summary>
@@ -3198,6 +3210,13 @@
             Get all the lines for this text block
             </summary>
         </member>
+        <member name="M:Topten.RichTextKit.TextBlock.Paint(SkiaSharp.SKCanvas,Topten.RichTextKit.TextPaintOptions)">
+            <summary>
+            Paint this text block
+            </summary>
+            <param name="canvas">The Skia canvas to paint to</param>
+            <param name="options">Options controlling the paint operation</param>
+        </member>
         <member name="M:Topten.RichTextKit.TextBlock.Paint(SkiaSharp.SKCanvas,System.Single,Topten.RichTextKit.TextPaintOptions)">
             <summary>
             Paint this text block
@@ -3205,6 +3224,15 @@
             <param name="canvas">The Skia canvas to paint to</param>
             <param name="options">Options controlling the paint operation</param>
             <param name="alpha"> transparency</param>
+        </member>
+        <member name="M:Topten.RichTextKit.TextBlock.Paint(SkiaSharp.SKCanvas,SkiaSharp.SKPoint,Topten.RichTextKit.TextPaintOptions)">
+            <summary>
+            Paint this text block
+            </summary>
+            <param name="canvas">The Skia canvas to paint to</param>
+            <param name="position">The top left position within the canvas to draw at</param>
+            <param name="options">Options controlling the paint operation</param>
+            <param name="alpha">transparency</param>
         </member>
         <member name="M:Topten.RichTextKit.TextBlock.Paint(SkiaSharp.SKCanvas,SkiaSharp.SKPoint,System.Single,Topten.RichTextKit.TextPaintOptions)">
             <summary>
@@ -3771,6 +3799,12 @@
             <summary>
             The width of the content on this line, excluding trailing whitespace and overhang.
             </summary>
+        </member>
+        <member name="M:Topten.RichTextKit.TextLine.Paint(Topten.RichTextKit.PaintTextContext)">
+            <summary>
+            Paint this line
+            </summary>
+            <param name="ctx">The paint context</param>
         </member>
         <member name="M:Topten.RichTextKit.TextLine.Paint(Topten.RichTextKit.PaintTextContext,System.Single)">
             <summary>
