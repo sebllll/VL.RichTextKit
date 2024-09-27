@@ -1,0 +1,277 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Topten.RichTextKit/0.4.167": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Linux": "2.8.2.3",
+          "Microsoft.SourceLink.GitHub": "1.0.0",
+          "SkiaSharp": "2.88.7",
+          "SkiaSharp.HarfBuzz": "2.88.7",
+          "SkiaSharp.NativeAssets.Linux": "2.88.7",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "Topten.RichTextKit.dll": {}
+        }
+      },
+      "HarfBuzzSharp/7.3.0.1": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.1",
+          "HarfBuzzSharp.NativeAssets.macOS": "7.3.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.3.0.1"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Linux/2.8.2.3": {
+        "dependencies": {
+          "HarfBuzzSharp": "7.3.0.1"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/7.3.0.1": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/7.3.0.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.0.0": {},
+      "Microsoft.SourceLink.Common/1.0.0": {},
+      "Microsoft.SourceLink.GitHub/1.0.0": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.0.0",
+          "Microsoft.SourceLink.Common": "1.0.0"
+        }
+      },
+      "SkiaSharp/2.88.7": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.7",
+          "SkiaSharp.NativeAssets.macOS": "2.88.7"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.7.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.7": {
+        "dependencies": {
+          "HarfBuzzSharp": "7.3.0.1",
+          "SkiaSharp": "2.88.7"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.7.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/2.88.7": {
+        "dependencies": {
+          "SkiaSharp": "2.88.7"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.7": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.7": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "Topten.RichTextKit/0.4.167": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarfBuzzSharp/7.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/6z6TQBqWWbVpLUw7E/82HZKLT3OAzg/w6z8I6JFNFcYa3nM9RnZ8XGos9nD4buAzThLHpqPw/rb8FdZXEORAQ==",
+      "path": "harfbuzzsharp/7.3.0.1",
+      "hashPath": "harfbuzzsharp.7.3.0.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Linux/2.8.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qu1yJSHEN7PD3+fqfkaClnORWN5e2xJ2Xoziz/GUi/oBT1Z+Dp2oZeiONKP6NFltboSOBkvH90QuOA6YN/U1zg==",
+      "path": "harfbuzzsharp.nativeassets.linux/2.8.2.3",
+      "hashPath": "harfbuzzsharp.nativeassets.linux.2.8.2.3.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/7.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4i6e8WhXF04At1rZ904xjt5g10W86u6B2SpzWAw+cfY4mzfyUV0hgZHIWsE6PsW8a9bP/bSdsZx/Rt4UIroi4w==",
+      "path": "harfbuzzsharp.nativeassets.macos/7.3.0.1",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/7.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxzjhGcY7fYCu51BsanQurXXyqGogZiMzFBpDrZg49jNhT/S0QWYe/uvmP9YbwagprKQ+2tbGT0cw1BvxJciXQ==",
+      "path": "harfbuzzsharp.nativeassets.win32/7.3.0.1",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Git/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z2fpmmt+1Jfl+ZnBki9nSP08S1/tbEOxFdsK1rSR+LBehIJz1Xv9/6qOOoGNqlwnAGGVGis1Oj6S8Kt9COEYlQ==",
+      "path": "microsoft.build.tasks.git/1.0.0",
+      "hashPath": "microsoft.build.tasks.git.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8DuQY8/DK5NN+3jm5wcMcd9QYD90UV7MiLmdljSJixi3U/vNaeBKmmXUqI4DJCOeWizIUEh4ALhSt58mR+5eg==",
+      "path": "microsoft.sourcelink.common/1.0.0",
+      "hashPath": "microsoft.sourcelink.common.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZyGyGg2nFSxix+xMkPmlmZSsnGQ3w+mIG23LTxJZHN+GPwTQ5FpPgDo7RMOq+Kcf5D4hFWfXkGhoGstawX13Q==",
+      "path": "microsoft.sourcelink.github/1.0.0",
+      "hashPath": "microsoft.sourcelink.github.1.0.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJHAMrbWO00J7jXWLWehyjqFo29T4VzABimfJb4nICqpEe3c/KvQGWL4ItON8ymzhxYOeFgyxeRzuNzO4GHSug==",
+      "path": "skiasharp/2.88.7",
+      "hashPath": "skiasharp.2.88.7.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Vd+GpokorZNpDvUp09zjK6CMXN35zyJtNvzkGtS1TsXlG/5yA3lWTsQIU0nSQjfgpYql0tSEU5+WTsjxljugg==",
+      "path": "skiasharp.harfbuzz/2.88.7",
+      "hashPath": "skiasharp.harfbuzz.2.88.7.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i9VitS7/5D8Te3B1Gu7F6kakW9PYVnI3YC6MoR6NidreD9hDl1EIOQEBaa0eBsOsWNX5Bz92OVf6+7KbDrJvyg==",
+      "path": "skiasharp.nativeassets.linux/2.88.7",
+      "hashPath": "skiasharp.nativeassets.linux.2.88.7.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jNzco4VjcYPFNxR9aNWcgweFXbTSdM1VpNRzCS4X0i1A1OuNqcaulrAvmntNpujeWxHo9e6WGh6FN8Jf5+XhA==",
+      "path": "skiasharp.nativeassets.macos/2.88.7",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.7.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BCXmWdQ0oVck9vRwC8U3ocSaTHEx28VB+6qw9OxGIMQ86iO5bp4Flqk3IXH0l9Pbr7vWAUOpI212iaL9mTaUZQ==",
+      "path": "skiasharp.nativeassets.win32/2.88.7",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}
