@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.0-0209-g820e492df4" Version="0.128">
-  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.0-0209-g820e492df4" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.2" Version="0.128">
+  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.2" />
   <Patch Id="Inr4myH1EuIOgvLat3jDBm">
     <Canvas Id="VeIO80iuUTpOw2xK0X2x9k" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -319,11 +319,6 @@ And again, here's </Item>
               </p:ValueBoxSettings>
             </Pad>
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="GdXlsW1pvTvNo36fXpx0Zx">
             <Fragment Id="Os3HK8KeqKJLMWfNWJMtQO" Patch="VqQ1kJpAAeYQcUmdEVNaXJ" Enabled="true" />
             <Fragment Id="QwLvI7mOoCeOFcoaUlDLmo" Patch="VFSto2f6LufPeLg4SogtgE" Enabled="true" />
@@ -534,7 +529,7 @@ And again, here's </Item>
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="2550, 339, 592, 634" IsHidden="true" />
+            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="1385, 348, 592, 634" IsHidden="true" />
             <Pin Id="Lq6jZ0NGc1kLxK3OMB6EP1" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="CKh0KZywOhLN2NPLJaXJlb" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="RG5ZFOlLKZZN7F4UXybY9f" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -878,7 +873,7 @@ And again, here's </Item>
             <Pin Id="C4rcNq8UU5HNQOqVhvNaGl" Name="StyleDictionary" Kind="InputPin" />
             <Pin Id="O4V4VqFPl5PMetEz1zqNwN" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="T7XP7vEcKN3OWvWC7u9drJ" Comment="" Bounds="366,723,544,188" ShowValueBox="true" isIOBox="true" Value="Text attributes _italic_, **bold**, `monospace`. That's all we want to parse and have...&#xD;&#xA;And again, here's _another italic string_ and **another bold** one.&#xD;&#xA;&#xD;&#xA;huhu, i'm a new paragraph, because that's what _really really_ matters.&#xD;&#xA;A new line is not a **new** paragraph&#xD;&#xA;&#xD;&#xA;But 2 or more new lines are.">
+          <Pad Id="T7XP7vEcKN3OWvWC7u9drJ" Comment="" Bounds="366,724,536,115" ShowValueBox="true" isIOBox="true" Value="Text attributes _italic_, **bold**, `monospace`. That's all we want to parse and have...&#xD;&#xA;And again, here's _another italic string_ and **another bold** one.&#xD;&#xA;&#xD;&#xA;huhu, i'm a new paragraph, because that's what _really really_ matters.&#xD;&#xA;A new line is not a **new** paragraph&#xD;&#xA;&#xD;&#xA;But 2 or more new lines are.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1135,7 +1130,7 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.0-0209-g820e492df4" />
+  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.2" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
   <NugetDependency Id="Jd6jXnnjjpRL0w5SxlXpzU" Location="MarkdownSharp" Version="2.0.5" />
   <NugetDependency Id="B5QFCY9KLjaPBhg1KfdYwz" Location="CommonMark.NET" Version="0.15.1" />
