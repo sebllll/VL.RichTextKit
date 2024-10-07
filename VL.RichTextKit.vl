@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0163-g402161e76e" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0163-g402161e76e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -851,6 +851,27 @@
             <ControlPoint Id="QOHBw2wlU3MOSh2ajGNll9" Bounds="800,275" />
             <ControlPoint Id="DKtI5mSCkyNMsB1GbaendH" Bounds="800,335" />
             <ControlPoint Id="KNTecWhjinRNObOoaKnFBQ" Bounds="966,268" />
+            <Pad Id="EEqgNEY7p61N18BhCbVYmF" SlotId="GH0bm5CsbJSLSraivDLqWs" Bounds="1335,326" />
+            <Node Bounds="1217,451,79,26" Id="FCu8ZGCaIiWORyKE5x2Q43">
+              <p:NodeReference LastCategoryFullName="Primitive.Delegates.Delegate (1 -&gt; 0)" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="FuncType" Name="Delegate (1 -&gt; 0)" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="Invoke" />
+              </p:NodeReference>
+              <Pin Id="GxlDZWXyk5HLoSRgxa2BnN" Name="Input" Kind="StateInputPin" />
+              <Pin Id="C7coKqHRjOrMBZd6ACOgCC" Name="Arg" Kind="InputPin" />
+            </Node>
+            <ControlPoint Id="CCoKMh07fOfQXCSZtZ7j37" Bounds="1219,344" />
+            <Node Bounds="1262,402,69,26" Id="QwukZbBqBnsNmlr1fKOuI7">
+              <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichStringStyle" LastDependency="VL.RichTextKit.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="ClassType" Name="RichStringStyle" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="Split" />
+              </p:NodeReference>
+              <Pin Id="I6SE6YWtrpvMPpuZTcZYZH" Name="Input" Kind="StateInputPin" />
+              <Pin Id="JygNFnCPY7cMLi04z76uEq" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Bb4QwvAGLuFLWJLRzgthJW" Name="Style" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Slot Id="E4C7GawbX1qLoPTPLIRPGx" Name="Text">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -883,6 +904,7 @@
             <Fragment Id="TJs2WE9EYmEN7eIhwlzIZd" Patch="IZaxOU5AJllPUOWoKgEc12" Enabled="true" />
             <Fragment Id="UaSh23tSGP1P20Sg9X0NoQ" Patch="Bwbsy4eOxvtOQzWddwnR1s" Enabled="true" />
             <Fragment Id="EY0oKcqVCiKNfCzJ1Cj6wm" Patch="AAuprEwMd3bNYbi8VW7NEt" />
+            <Fragment Id="OVNBEzr9mToPMCr0RrI4FC" Patch="TuZEqf7F0eMM5VY1IrmFy3" />
           </ProcessDefinition>
           <Slot Id="NcEpdmqCuMcM8hgTItBho4" Name="Margin">
             <p:TypeAnnotation p:Type="TypeReference">
@@ -917,6 +939,13 @@
             <Pin Id="VDzFmEppRd5LKzmVosJoe4" Name="Alignment" Kind="InputPin" />
             <Pin Id="NDJnk07tEQILz5712nK4AP" Name="Margin" Kind="InputPin" />
           </Patch>
+          <Link Id="RZwFEfL54giMrDEhdYvEhO" Ids="CCoKMh07fOfQXCSZtZ7j37,GxlDZWXyk5HLoSRgxa2BnN" />
+          <Link Id="IQ2d2ke5O3tQPlLA008yqJ" Ids="PqF6OPexZYfP8Nscg0DIYf,CCoKMh07fOfQXCSZtZ7j37" IsHidden="true" />
+          <Patch Id="TuZEqf7F0eMM5VY1IrmFy3" Name="ChangeStyle">
+            <Pin Id="PqF6OPexZYfP8Nscg0DIYf" Name="Input" Kind="InputPin" />
+          </Patch>
+          <Link Id="ElNTSgADclBPQMtlUczjSl" Ids="EEqgNEY7p61N18BhCbVYmF,I6SE6YWtrpvMPpuZTcZYZH" />
+          <Link Id="AqQprTENJzXOOGCXhJUifT" Ids="Bb4QwvAGLuFLWJLRzgthJW,C7coKqHRjOrMBZd6ACOgCC" />
         </Patch>
       </Node>
       <!--
@@ -3876,7 +3905,7 @@
                 <Choice Kind="OperationCallFlag" Name="Split" />
               </p:NodeReference>
               <Pin Id="AWE05BqjmU2PKlhs0IJLb7" Name="Input" Kind="InputPin" />
-              <Pin Id="JM74KU8uraDPvOYXPtKzY6" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="JM74KU8uraDPvOYXPtKzY6" Name="Output" Kind="OutputPin" />
               <Pin Id="VUDqO0cRVwbMjqDzjRYm4t" Name="Text" Kind="OutputPin" />
               <Pin Id="MZvqoZ2OftRNY9n9cAj3OK" Name="Style" Kind="OutputPin" />
               <Pin Id="PRlmBxcIDXJOvM82H9rUZg" Name="isNewPargraph" Kind="OutputPin" />
@@ -5781,9 +5810,9 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0163-g402161e76e" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0181-gdf16f593e1" />
   <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
-  <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="2.8.2.3" />
+  <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="7.3.0.1" />
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
   <PlatformDependency Id="KmuCFu16aYJNKQBd3tDQaA" Location="System.Xml" />
