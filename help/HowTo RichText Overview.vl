@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UKk1uPKQy6xQLRXslbHJT7" LanguageVersion="2024.6.2" Version="0.128">
-  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="UKk1uPKQy6xQLRXslbHJT7" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
+  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
   <Patch Id="Inr4myH1EuIOgvLat3jDBm">
     <Canvas Id="VeIO80iuUTpOw2xK0X2x9k" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -227,6 +227,7 @@
             <Pin Id="RG5ZFOlLKZZN7F4UXybY9f" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PyytPROwv1xPjVzoJi62XM" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="VaT8IieWsTHNC7hBi7TXQz" Name="Input" Kind="InputPin" />
+            <Pin Id="CCm7JV1Y70NOu89hQJDy4i" Name="Title" Kind="InputPin" />
             <Pin Id="UjB8H8vhmjHQMLrd2Stkkb" Name="Color" Kind="InputPin" />
             <Pin Id="MeY3Ga1B0SXOTi69LSMdR6" Name="Clear" Kind="InputPin" />
             <Pin Id="QZcd7aSBsSiLtp1LfVV8Lk" Name="Space" Kind="InputPin" />
@@ -883,6 +884,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.2" />
+  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0185-g7d063e105d" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
 </Document>

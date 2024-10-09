@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0185-g7d063e105d" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0185-g7d063e105d" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -1189,7 +1189,7 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="FTZ5thvR929LbO4SAsZFQk" Comment="Do Layout" Bounds="675,1060,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+                <Pad Id="FTZ5thvR929LbO4SAsZFQk" Comment="Do Layout" Bounds="675,1060,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
@@ -5889,10 +5889,10 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0181-gdf16f593e1" />
-  <PlatformDependency Id="UABbH8q2k1uM7FI7IhNhH2" Location="./lib/net6.0/Release/Topten.RichTextKit.dll" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0185-g7d063e105d" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="7.3.0.1" />
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
   <PlatformDependency Id="KmuCFu16aYJNKQBd3tDQaA" Location="System.Xml" />
+  <PlatformDependency Id="NVm9evuQimPPlz9pUB17CV" Location="./lib/net8.0/RichTextKit.dll" />
 </Document>
