@@ -5894,5 +5894,5 @@ And again, here's </Item>
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
   <PlatformDependency Id="KmuCFu16aYJNKQBd3tDQaA" Location="System.Xml" />
-  <PlatformDependency Id="NVm9evuQimPPlz9pUB17CV" Location="./lib/net8.0/RichTextKit.dll" />
+  <PlatformDependency Id="NVm9evuQimPPlz9pUB17CV" Location="./lib/net8.0/RichTextKit.dll" IsForward="true" />
 </Document>
