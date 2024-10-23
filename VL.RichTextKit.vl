@@ -5891,7 +5891,7 @@ And again, here's </Item>
   </Patch>
   <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0185-g7d063e105d" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="7.3.0.1" />
-  <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
+  <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.37.0" />
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
   <PlatformDependency Id="KmuCFu16aYJNKQBd3tDQaA" Location="System.Xml" />
   <PlatformDependency Id="NVm9evuQimPPlz9pUB17CV" Location="./lib/net8.0/RichTextKit.dll" IsForward="true" />
