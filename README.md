@@ -9,3 +9,6 @@ the upstream lib is modified accordingly, thus using a fork.
 
 ## Installation
 no nuget yet. just clone the repo and copy everything (except the src folder) to your project or pack folder.
+
+### Gamma >= 6.7-175 (roughly)
+use this [_dependencyWorkaround_ ](https://github.com/sebllll/VL.RichTextKit/tree/dependencyWorkaround) branch
