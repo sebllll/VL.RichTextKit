@@ -8,4 +8,4 @@ In addition there's suport for hyphenation, transparency and some tweaks for per
 the upstream lib is modified accordingly, thus using a fork.
 
 ## Installation
-no nuget yet. just clone the repo and copy everything (except the src folder) to your project or pack folder.
+Quad Menu > Manage Nugets > CommandLine > ```nuget install VL.RichTextKit```
