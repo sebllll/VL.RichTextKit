@@ -1,17 +1,33 @@
 name: push_nuget
 
-# on push on main
+# on manual click
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - README.md
+  workflow_dispatch:
+    inputs:
+      buildnumberMaj:
+        description: 'Major Version'     
+        required: true
+        default: '0'
+      buildnumber:
+        description: 'Version'     
+        required: true
+        default: '0'                  
+      buildnumberMin:
+        description: 'Minor Version'     
+        required: true
+        default: '0'
+      deploy:
+          description: 'really push to nuget.org'
+          required: false
+          type: boolean
 
 jobs:
   build:
     runs-on: windows-latest
     steps:
+    - name: Concatenate string and variable 
+      run: echo "Build Number: ${{ github.event.inputs.buildnumberMaj }}.${{ github.event.inputs.buildnumber }}.${{ github.event.inputs.buildnumberMin }}"
+
     - name: Git Checkout
       uses: actions/checkout@main
       
@@ -19,14 +35,14 @@ jobs:
       uses: nuget/setup-nuget@v2.0.0
 
     - name: Publish VL Nuget
+      if: ${{ github.event.inputs.deploy })
+      run: echo "Deploying to NuGet..."
       uses: vvvv/PublishVLNuget@1.0.43
       with:
-        csproj: src\VL.NewLibrary.Template.csproj
         nuspec: deployment\VL.RichTextKit.nuspec
+        version: 0.1.${{ github.event.inputs.buildnumber }}
 
-        # Fill the Icon file
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
         
-        # Provide the nuget key. See: https://thegraybook.vvvv.org/reference/extending/publishing.html#getting-a-nugetorg-api-key
         nuget-key: ${{ secrets.NUGET_KEY }}
