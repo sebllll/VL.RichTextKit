@@ -35,7 +35,7 @@ jobs:
       uses: nuget/setup-nuget@v2.0.0
 
     - name: deploy
-      if: ${{ github.event.inputs.deploy })
+      if: ${{ github.event.inputs.deploy }}
       run: echo "actually deploying..."
 
     - name: Publish VL Nuget
