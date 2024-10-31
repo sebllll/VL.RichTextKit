@@ -25,25 +25,26 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - name: Concatenate string and variable 
+    - name: report version
       run: echo "${{ github.event.inputs.buildnumberMaj }}.${{ github.event.inputs.buildnumber }}.${{ github.event.inputs.buildnumberMin }}"
 
     - name: Git Checkout
       uses: actions/checkout@main
       
-    - name: Setup Nuget.exe
-      uses: nuget/setup-nuget@v2.0.0
-
     - name: deploy
       if: ${{ github.event.inputs.deploy == 'true' }}
       run: echo "actually deploying..."
+
+    - name: Setup Nuget.exe
+      if: ${{ github.event.inputs.deploy == 'true' }}
+      uses: nuget/setup-nuget@v2.0.0
 
     - name: Publish VL Nuget
       if: ${{ github.event.inputs.deploy == 'true' }}
       uses: vvvv/PublishVLNuget@1.0.43
       with:
         nuspec: deployment\VL.RichTextKit.nuspec
-        version: 0.1.${{ github.event.inputs.buildnumber }}
+        version: "{{ github.event.inputs.buildnumberMaj }}.${{ github.event.inputs.buildnumber }}.${{ github.event.inputs.buildnumberMin }}"
 
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
