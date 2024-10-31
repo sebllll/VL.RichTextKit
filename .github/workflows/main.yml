@@ -34,9 +34,12 @@ jobs:
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v2.0.0
 
+    - name: deploy
+      if: ${{ github.event.inputs.deploy })
+      run: echo "actually deploying..."
+
     - name: Publish VL Nuget
       if: ${{ github.event.inputs.deploy })
-      run: echo "Deploying to NuGet..."
       uses: vvvv/PublishVLNuget@1.0.43
       with:
         nuspec: deployment\VL.RichTextKit.nuspec
