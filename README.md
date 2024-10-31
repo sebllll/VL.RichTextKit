@@ -2,7 +2,7 @@
 
 a VL Wrapper for https://github.com/toptensoftware/RichTextKit
 
-![RTK3](https://github.com/sebllll/VL.RichTextKit/assets/646501/f5696412-6444-4561-9386-d7e898eec942)
+![RTK3](https://raw.githubusercontent.com/sebllll/VL.RichTextKit/refs/heads/fixReadMe/demo.gif)
 
 In addition there's suport for hyphenation, transparency and some tweaks for performance.
 the upstream lib is modified accordingly, thus using a fork.

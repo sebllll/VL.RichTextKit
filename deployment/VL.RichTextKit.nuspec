@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.RichTextKit</id>
-    <version>0.0.1-alpha</version>
+    <version>0.0.2-alpha</version>
     <title>VL.RichTextKit</title>
     <authors>sebl, toptensoftware, rmt</authors>
     <projectUrl>https://github.com/sebllll/VL.RichTextKit</projectUrl>
