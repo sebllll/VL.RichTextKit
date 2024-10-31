@@ -30,7 +30,7 @@ jobs:
 
     - name: Git Checkout
       uses: actions/checkout@main
-      
+
     - name: deploy
       if: ${{ github.event.inputs.deploy == 'true' }}
       run: echo "actually deploying..."
@@ -44,7 +44,7 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.43
       with:
         nuspec: deployment\VL.RichTextKit.nuspec
-        version: "{{ github.event.inputs.buildnumberMaj }}.${{ github.event.inputs.buildnumber }}.${{ github.event.inputs.buildnumberMin }}"
+        version: {{ github.event.inputs.buildnumberMaj }}.${{ github.event.inputs.buildnumber }}.${{ github.event.inputs.buildnumberMin }}
 
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
