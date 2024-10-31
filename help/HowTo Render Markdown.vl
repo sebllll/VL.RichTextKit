@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.2" Version="0.128">
-  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
+  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <Patch Id="Inr4myH1EuIOgvLat3jDBm">
     <Canvas Id="VeIO80iuUTpOw2xK0X2x9k" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -391,7 +391,7 @@ And again, here's </Item>
       </p:NodeReference>
       <Patch Id="GXGkxFvNYoUNzNIGe4xZ3u">
         <Canvas Id="NreVuR3Vf6fOc5qKT1cT06" CanvasType="Group">
-          <Pad Id="AKTyGRlc4fbOgMy02VDWJU" Comment="" Bounds="142,207,82,15" ShowValueBox="true" isIOBox="true" Value="Segoe UI">
+          <Pad Id="AKTyGRlc4fbOgMy02VDWJU" Comment="" Bounds="551,112,82,15" ShowValueBox="true" isIOBox="true" Value="Segoe UI">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -402,6 +402,7 @@ And again, here's </Item>
               <Choice Kind="ProcessAppFlag" Name="RichStringStyle" />
             </p:NodeReference>
             <Pin Id="DnsJAEnJIEIPLmbL6t8E0M" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="MsBGrcQfnFyOJkQnkAmg2k" Name="Custom Font" Kind="InputPin" />
             <Pin Id="R45a99w5NRkMGK0yz1NKuo" Name="Font Family" Kind="InputPin" />
             <Pin Id="NBiHUf3w7smPdAUKuNSYkP" Name="Font Size" Kind="InputPin" />
             <Pin Id="PMvWHXqv4BmMdLeSgZH8t4" Name="Letter Spacing" Kind="InputPin" />
@@ -420,7 +421,7 @@ And again, here's </Item>
             <Pin Id="RFvCSNw6Hx2NQtEDtKXaWd" Name="TextDirection" Kind="InputPin" />
             <Pin Id="CHzbie91YrPQdrzbo1euC4" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="J0lXH5ZCVusNkX1KgBThaq" Comment="Font Size" Bounds="162,233,35,15" ShowValueBox="true" isIOBox="true" Value="16">
+          <Pad Id="J0lXH5ZCVusNkX1KgBThaq" Comment="Font Size" Bounds="571,138,35,15" ShowValueBox="true" isIOBox="true" Value="16">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -430,17 +431,17 @@ And again, here's </Item>
               <p:unit p:Type="String"> px</p:unit>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="N2HNctPxD9rLyWEsSYsPIX" Comment="Italic" Bounds="223,268,36,15" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="N2HNctPxD9rLyWEsSYsPIX" Comment="Italic" Bounds="243,268,36,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GdMpCrl7YonL0b6oZOEMKo" Comment="Weight" Bounds="243,293,35,15" ShowValueBox="true" isIOBox="true" Value="200">
+          <Pad Id="GdMpCrl7YonL0b6oZOEMKo" Comment="Weight" Bounds="263,293,35,15" ShowValueBox="true" isIOBox="true" Value="200">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Vf8rKERSIuGPxZ9iMXrVY1" Comment="LineHeight" Bounds="263,323,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Vf8rKERSIuGPxZ9iMXrVY1" Comment="LineHeight" Bounds="283,323,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -519,7 +520,7 @@ And again, here's </Item>
             <Pin Id="RyWaERz7cwGMmtYFWnpa5N" Name="Output" Kind="OutputPin" />
             <Pin Id="AitmPDVeRmPLOVl1VuKYL7" Name="HitTestResult" Kind="OutputPin" />
           </Node>
-          <Node Bounds="742,2072,125,19" Id="Hd19DbAfTEYM3qsbhwINtw">
+          <Node Bounds="742,2072,145,19" Id="Hd19DbAfTEYM3qsbhwINtw">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true">
@@ -529,12 +530,13 @@ And again, here's </Item>
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="1385, 348, 592, 634" IsHidden="true" />
+            <Pin Id="RUbYUXb0vBjMNfx6JHucXQ" Name="Bounds" Kind="InputPin" DefaultValue="530, 392, 592, 634" IsHidden="true" />
             <Pin Id="Lq6jZ0NGc1kLxK3OMB6EP1" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="CKh0KZywOhLN2NPLJaXJlb" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="RG5ZFOlLKZZN7F4UXybY9f" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PyytPROwv1xPjVzoJi62XM" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="VaT8IieWsTHNC7hBi7TXQz" Name="Input" Kind="InputPin" />
+            <Pin Id="PbubJQ0xmRdPGt7aRlTrQQ" Name="Title" Kind="InputPin" />
             <Pin Id="UjB8H8vhmjHQMLrd2Stkkb" Name="Color" Kind="InputPin" DefaultValue="0.17, 0.17, 0.17, 1" />
             <Pin Id="MeY3Ga1B0SXOTi69LSMdR6" Name="Clear" Kind="InputPin" />
             <Pin Id="QZcd7aSBsSiLtp1LfVV8Lk" Name="Space" Kind="InputPin" />
@@ -692,7 +694,7 @@ And again, here's </Item>
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="724,444,53,26" Id="PnSEb9FYPy8Ln2zUiDbDyY">
+          <Node Bounds="874,444,53,26" Id="PnSEb9FYPy8Ln2zUiDbDyY">
             <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Dictionary" />
@@ -703,12 +705,12 @@ And again, here's </Item>
             <Pin Id="UvNPQhlpMLKMc5StBNUqvG" Name="Value" Kind="InputPin" />
             <Pin Id="UZh34tRPthYL7eTaIczvdW" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="Ek0XFuM4xnKNQ4MEofE4AI" Comment="" Bounds="750,424,59,15" ShowValueBox="true" isIOBox="true" Value="strong">
+          <Pad Id="Ek0XFuM4xnKNQ4MEofE4AI" Comment="" Bounds="900,424,59,15" ShowValueBox="true" isIOBox="true" Value="strong">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="408,435,53,26" Id="NROxe9dMoouNxkSgcUj00q">
+          <Node Bounds="483,435,53,26" Id="NROxe9dMoouNxkSgcUj00q">
             <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Dictionary" />
@@ -719,18 +721,19 @@ And again, here's </Item>
             <Pin Id="BdG029OBlUhN5mgL2m88Gs" Name="Value" Kind="InputPin" />
             <Pin Id="VJxMOas1lu4MMGScxyjhPm" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="DZoOZeXpTaNPs4KC0exHUX" Comment="" Bounds="434,415,59,15" ShowValueBox="true" isIOBox="true" Value="em">
+          <Pad Id="DZoOZeXpTaNPs4KC0exHUX" Comment="" Bounds="509,415,59,15" ShowValueBox="true" isIOBox="true" Value="em">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SFG3ir7U0cAL3eZWg7DiuC" SlotId="RooE2xCuTD2M0h7lxiLxCW" Bounds="1039,574" />
-          <Node Bounds="456,357,305,19" Id="NbBV4XB8YhcMg5aSHABcYR">
+          <Pad Id="SFG3ir7U0cAL3eZWg7DiuC" SlotId="RooE2xCuTD2M0h7lxiLxCW" Bounds="1264,574" />
+          <Node Bounds="531,357,325,19" Id="NbBV4XB8YhcMg5aSHABcYR">
             <p:NodeReference LastCategoryFullName="RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RichStringStyle" />
             </p:NodeReference>
             <Pin Id="RegXcuregRpQRjM61SKGMi" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LABFWjyZCRkLZrd7dKvwB6" Name="Custom Font" Kind="InputPin" />
             <Pin Id="IcBbdTvAIPyOR557FhYPph" Name="Font Family" Kind="InputPin" />
             <Pin Id="MvaPj0JfmiVMdrjqBotr9P" Name="Font Size" Kind="InputPin" />
             <Pin Id="TzeauhzKU4rNFgISVYTX5o" Name="Letter Spacing" Kind="InputPin" />
@@ -749,27 +752,28 @@ And again, here's </Item>
             <Pin Id="TBh1JAWK6zvPeGBuozQtDk" Name="TextDirection" Kind="InputPin" />
             <Pin Id="F45uJrdWjDELYXRFNOhs1F" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="InoeHyMe5tqNRpJzVy2i0P" Comment="Italic" Bounds="538,269,36,15" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="InoeHyMe5tqNRpJzVy2i0P" Comment="Italic" Bounds="633,269,36,15" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="LGAt4fc5Oi3L1D1QoPtoLC" Comment="Weight" Bounds="558,294,35,15" ShowValueBox="true" isIOBox="true" Value="200">
+          <Pad Id="LGAt4fc5Oi3L1D1QoPtoLC" Comment="Weight" Bounds="653,294,35,15" ShowValueBox="true" isIOBox="true" Value="200">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Pc9YinouICBOv1j8npxo1N" Comment="LineHeight" Bounds="578,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Pc9YinouICBOv1j8npxo1N" Comment="LineHeight" Bounds="673,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="771,357,305,19" Id="KAzwwySVTHWPtL7DyChHJn">
+          <Node Bounds="921,357,325,19" Id="KAzwwySVTHWPtL7DyChHJn">
             <p:NodeReference LastCategoryFullName="RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RichStringStyle" />
             </p:NodeReference>
             <Pin Id="VXdgTIgoBLcNrNMGY1Cpc4" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UrN1az4qT6fQPUOMycEDnu" Name="Custom Font" Kind="InputPin" />
             <Pin Id="LasDLgkpCpTMZ5TdB9zfrp" Name="Font Family" Kind="InputPin" />
             <Pin Id="RmCnOjh0oO5Mnn5dUW7ejR" Name="Font Size" Kind="InputPin" />
             <Pin Id="HZawJmjN9ZFOT06dm1dUHd" Name="Letter Spacing" Kind="InputPin" />
@@ -788,32 +792,33 @@ And again, here's </Item>
             <Pin Id="UPYsiqcWUPHO5uArH4IENh" Name="TextDirection" Kind="InputPin" />
             <Pin Id="RZPLCfzb4pALIxEMDAJpAd" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VT1OUaqtgPxPiipxPyv4Uk" Comment="Italic" Bounds="853,269,36,15" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="VT1OUaqtgPxPiipxPyv4Uk" Comment="Italic" Bounds="1023,269,36,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PChTxCiBv5pO5B7D4kDV88" Comment="Weight" Bounds="873,294,35,15" ShowValueBox="true" isIOBox="true" Value="500">
+          <Pad Id="PChTxCiBv5pO5B7D4kDV88" Comment="Weight" Bounds="1043,294,35,15" ShowValueBox="true" isIOBox="true" Value="500">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HwdPdFaBe6FPHWlkAwDlSs" Comment="LineHeight" Bounds="893,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="HwdPdFaBe6FPHWlkAwDlSs" Comment="LineHeight" Bounds="1063,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IRNXUJMtV2jNXDqkeFrZ7R" Comment="" Bounds="1087,208,82,15" ShowValueBox="true" isIOBox="true" Value="Courier New">
+          <Pad Id="IRNXUJMtV2jNXDqkeFrZ7R" Comment="" Bounds="1332,208,82,15" ShowValueBox="true" isIOBox="true" Value="Courier New">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1086,357,305,19" Id="LynLq71Zjz1L3IhFOWJJwv">
+          <Node Bounds="1311,357,325,19" Id="LynLq71Zjz1L3IhFOWJJwv">
             <p:NodeReference LastCategoryFullName="RichTextKit" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RichStringStyle" />
             </p:NodeReference>
             <Pin Id="Dg0yRc35nNlPK4hGf9eNpt" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ORsu7zHdqPWO2pHh4CD2bv" Name="Custom Font" Kind="InputPin" />
             <Pin Id="SS3jwJj7QBXQTUOTAfjP6C" Name="Font Family" Kind="InputPin" />
             <Pin Id="D1ZMIh2vs0zOYRCyAji2fG" Name="Font Size" Kind="InputPin" />
             <Pin Id="DlKRHan164OOA6JvktQk8g" Name="Letter Spacing" Kind="InputPin" />
@@ -832,22 +837,22 @@ And again, here's </Item>
             <Pin Id="GliCKpdWr6SOr3FvQb9ZXT" Name="TextDirection" Kind="InputPin" />
             <Pin Id="TRqR0XQK9ETM7u5aRI65fL" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="UAdaceOqIeUN6alxdIkIW6" Comment="Italic" Bounds="1168,269,36,15" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="UAdaceOqIeUN6alxdIkIW6" Comment="Italic" Bounds="1413,269,36,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="ImHj5MJYkLDQEoUlRFFlY3" Comment="Weight" Bounds="1188,294,35,15" ShowValueBox="true" isIOBox="true" Value="200">
+          <Pad Id="ImHj5MJYkLDQEoUlRFFlY3" Comment="Weight" Bounds="1433,294,35,15" ShowValueBox="true" isIOBox="true" Value="200">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KdjXKyu3BR8LOakZ4o294N" Comment="LineHeight" Bounds="1208,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="KdjXKyu3BR8LOakZ4o294N" Comment="LineHeight" Bounds="1453,324,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1037,454,53,26" Id="BtrXk3NVWEvPlTQxcYWBKT">
+          <Node Bounds="1262,454,53,26" Id="BtrXk3NVWEvPlTQxcYWBKT">
             <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531840" Name="Dictionary" />
@@ -858,7 +863,7 @@ And again, here's </Item>
             <Pin Id="CrqZzCw8bf1QLJTWLmIkxK" Name="Value" Kind="InputPin" />
             <Pin Id="MNBe1QRGPgtPLqkqZ3OL9u" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="QIApWlWG35PLnFT1aHgopK" Comment="" Bounds="1063,434,59,15" ShowValueBox="true" isIOBox="true" Value="code">
+          <Pad Id="QIApWlWG35PLnFT1aHgopK" Comment="" Bounds="1288,434,59,15" ShowValueBox="true" isIOBox="true" Value="code">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1130,12 +1135,9 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.2" />
+  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
-  <NugetDependency Id="Jd6jXnnjjpRL0w5SxlXpzU" Location="MarkdownSharp" Version="2.0.5" />
-  <NugetDependency Id="B5QFCY9KLjaPBhg1KfdYwz" Location="CommonMark.NET" Version="0.15.1" />
   <NugetDependency Id="RyqViPwT35ONZnqllXEuiM" Location="Markdig" Version="0.35.0" />
-  <NugetDependency Id="KTSKUwvYibHP6bnvC2wUEf" Location="HtmlAgilityPack" Version="1.11.59" />
   <PlatformDependency Id="EdyifW71LlXMZLjW5wyqAg" Location="System.Xml.Linq" />
   <PlatformDependency Id="BN3HJn6xwniQaUfv4XmPLz" Location="System.Xml" />
 </Document>

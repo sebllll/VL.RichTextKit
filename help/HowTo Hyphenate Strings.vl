@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="M1CqRuMuybhNPnLYDBhm1P" LanguageVersion="2024.6.2" Version="0.128">
-  <NugetDependency Id="G5ysRmpjEqQMu4GXXljFSp" Location="VL.CoreLib" Version="2024.6.2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="M1CqRuMuybhNPnLYDBhm1P" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
+  <NugetDependency Id="G5ysRmpjEqQMu4GXXljFSp" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
   <Patch Id="AxrZQ5hYpQWOoKe0wZSUSf">
     <Canvas Id="ERZcrH0ESAALuV2HyNkhJt" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -114,6 +114,6 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="Om5bnSsP8UzPDSXvUoHiT8" Location="../NHunspell.vl" />
   <NugetDependency Id="BLIheZeBjQgNeKUghXuzh9" Location="NHunspell" Version="1.2.5554.16953" />
+  <DocumentDependency Id="FLgooLyfEWiOjrehAC0nqQ" Location="../VL.Hyphenate.vl" />
 </Document>
