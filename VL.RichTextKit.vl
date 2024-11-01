@@ -5993,5 +5993,5 @@ And again, here's </Item>
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
   <PlatformDependency Id="KmuCFu16aYJNKQBd3tDQaA" Location="System.Xml" />
   <PlatformDependency Id="NVm9evuQimPPlz9pUB17CV" Location="./lib/net8.0/RichTextKit.dll" IsForward="true" />
-  <DocumentDependency Id="G7Crq2QwMR3PAiRzcJCiLm" Location="./VL.Hyphenate.vl" />
+  <DocumentDependency Id="G7Crq2QwMR3PAiRzcJCiLm" Location="./VL.Hyphenate.vl" IsForward="true" />
 </Document>

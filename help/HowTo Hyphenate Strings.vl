@@ -115,5 +115,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="BLIheZeBjQgNeKUghXuzh9" Location="NHunspell" Version="1.2.5554.16953" />
-  <DocumentDependency Id="FLgooLyfEWiOjrehAC0nqQ" Location="../VL.Hyphenate.vl" />
+  <DocumentDependency Id="CiswRR5PrJ1NhmxI054EGw" Location="../VL.RichTextKit.vl" />
 </Document>
