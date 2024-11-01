@@ -21,6 +21,7 @@
               <Choice Kind="ProcessAppFlag" Name="RichStringSnippet" />
               <CategoryReference Kind="Category" Name="RichTextKit" NeedsToBeDirectParent="true" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="HIWsbnxd9FXLPY4CZLIg5A" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OvBVEL5H1YxOHZIymv4kjg" Name="Text" Kind="InputPin" />
             <Pin Id="OCt1XYcm8zoOsr478hjitj" Name="Style" Kind="InputPin" />
@@ -48,6 +49,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Margin" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="QBggFNK0ACnLscLA9xv0uv" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="MPRCHPBcFt7MKuCXR7effY" Name="Input" Kind="InputPin" />
             <Pin Id="PYb40o6z0i2NskStDiPjKB" Name="Output" Kind="OutputPin" />
@@ -67,6 +69,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RichStringStyle" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="DnsJAEnJIEIPLmbL6t8E0M" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="SRCcNWPS9WaOY6sWtQINby" Name="Custom Font" Kind="InputPin" />
             <Pin Id="R45a99w5NRkMGK0yz1NKuo" Name="Font Family" Kind="InputPin" />
@@ -137,6 +140,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BuildRichstring (Measure)" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="KiczpYYysYeLXv9CuXKB0P" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HicvsXPpJxAOjB569E8k8b" Name="Input" Kind="InputPin" />
             <Pin Id="GIwllZ354IwPRFVSf4I9mw" Name="Max Width" Kind="InputPin" />
@@ -194,6 +198,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawRichString" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="MvXh4NLh0YbMsuQyxaHhTh" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Oft8OJcoBvFMC4bDwHCCOJ" Name="Antialias" Kind="InputPin" IsHidden="true" />
             <Pin Id="D0QYRiCxCO8MfjbMYBG7yz" Name="LcdRenderText" Kind="InputPin" IsHidden="true" />
@@ -476,11 +481,12 @@
               <Choice Kind="TypeFlag" Name="CommonSpace" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="694,1364,120,19" Id="QgEboP4eQsoOuq7rhX6S8y">
+          <Node Bounds="694,1401,120,19" Id="QgEboP4eQsoOuq7rhX6S8y">
             <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Graphics.Skia" LastDependency="VL.RichTextKit.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawRichStringHelpers" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="MjX2py2ruvfOgLQGFBa97h" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="IXQVMI64YvhNsDAPkbXTQp" Name="TextBounds" Kind="InputPin" />
             <Pin Id="C2RYOgrwptUOlhOKdobOPY" Name="Alpha" Kind="InputPin" />
@@ -513,7 +519,7 @@
             <Pin Id="PfJCOr1gTjOLfsYA8fPMLS" Name="Transformation" Kind="InputPin" />
             <Pin Id="LeeZ4AZbh79LGUuAhmZdfa" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="UViPVeBmzGuO9xZmnPylEZ" Comment="Alpha" Bounds="811,1341,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="UViPVeBmzGuO9xZmnPylEZ" Comment="Alpha" Bounds="811,1378,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -549,6 +555,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="Caret" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="Q5Sz4mxzxVxP2JgYsCZgvI" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="CYPQSQLHl4vNdK5ypXhrTs" Name="Richstring" Kind="InputPin" />
             <Pin Id="Dwvei4xKHkyPexwpX8qh3Q" Name="HitTestResult" Kind="InputPin" />
@@ -557,7 +564,7 @@
             <Pin Id="IvNOSFrzkPaNx2VUgOtfae" Name="StartIndex" Kind="OutputPin" />
             <Pin Id="HpkKSLBhT9VQcUMYyUrhJ6" Name="EndIndex" Kind="OutputPin" />
           </Node>
-          <Pad Id="S3qd2dUvMH9OeGch1J8YvC" Bounds="621,1460,237,19" ShowValueBox="true" isIOBox="true" Value="&lt; has more options for TextRendering">
+          <Pad Id="S3qd2dUvMH9OeGch1J8YvC" Bounds="678,1460,237,19" ShowValueBox="true" isIOBox="true" Value="&lt; has more options for TextRendering">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -591,6 +598,7 @@
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ChangeStyle" />
                 </p:NodeReference>
+                <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                 <Pin Id="K9KjUssUl4AOJ4200liZTz" Name="State Input" Kind="StateInputPin" />
                 <Pin Id="KO32JNiQqFvNBTAfh7lYyK" Name="Output" Kind="StateOutputPin" />
                 <Patch Id="PlaluPpLwRRQQtudKUpZz3" Name="Input" ManuallySortedPins="true">

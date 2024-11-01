@@ -51,6 +51,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Hyphenator" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="RDpHEps0myYNpSlKR7tshW" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JZmDnHKCFmTNAO5WNnTc59" Name="dic" Kind="InputPin" />
             <Pin Id="D3D09R05uxaMjZyjrVHhRn" Name="Input" Kind="InputPin" />

@@ -516,7 +516,7 @@ And again, here's </Item>
             <Pin Id="LPjDEuULCGmM7VDzKIHN2r" Name="Alpha Factor" Kind="InputPin" />
             <Pin Id="VUGBJ8A22kvL6FE3ovIRLs" Name="HitTest" Kind="InputPin" />
             <Pin Id="NspVk7w7aniOswh949HyAt" Name="Enabled" Kind="InputPin" />
-            <Pin Id="T5zkifK3F0MOomMriBsgQf" Name="Paint" Kind="InputPin" />
+            <Pin Id="T5zkifK3F0MOomMriBsgQf" Name="Paint" Kind="InputPin" IsHidden="true" />
             <Pin Id="RyWaERz7cwGMmtYFWnpa5N" Name="Output" Kind="OutputPin" />
             <Pin Id="AitmPDVeRmPLOVl1VuKYL7" Name="HitTestResult" Kind="OutputPin" />
           </Node>
@@ -873,6 +873,7 @@ And again, here's </Item>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="ParseMarkdown" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="H8Fv6M5AZcIOPa8G2wME4Z" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="MVJENlIyK8JPlxZ8Rz5BDq" Name="Markdown" Kind="InputPin" />
             <Pin Id="C4rcNq8UU5HNQOqVhvNaGl" Name="StyleDictionary" Kind="InputPin" />
@@ -973,7 +974,7 @@ And again, here's </Item>
             <Pin Id="SzEpGWATTV7QXlAgJdgAkK" Name="Alpha Factor" Kind="InputPin" />
             <Pin Id="IxwyH8Mwd7KNLHC7XqZvRM" Name="HitTest" Kind="InputPin" />
             <Pin Id="MONTtbVG01gMdEna3PZh8Y" Name="Enabled" Kind="InputPin" />
-            <Pin Id="R4m2OjPOy9WMe1HY9SuBnZ" Name="Paint" Kind="InputPin" />
+            <Pin Id="R4m2OjPOy9WMe1HY9SuBnZ" Name="Paint" Kind="InputPin" IsHidden="true" />
             <Pin Id="MPRXqk8PedGMVKBHc9hkbH" Name="Output" Kind="OutputPin" />
             <Pin Id="PNAAorYoLA7LiLuSTFCqdA" Name="HitTestResult" Kind="OutputPin" />
           </Node>

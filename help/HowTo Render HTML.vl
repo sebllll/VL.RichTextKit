@@ -497,6 +497,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ParseHTML" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="H8Fv6M5AZcIOPa8G2wME4Z" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="MVJENlIyK8JPlxZ8Rz5BDq" Name="HTML" Kind="InputPin" />
             <Pin Id="C4rcNq8UU5HNQOqVhvNaGl" Name="StyleDictionary" Kind="InputPin" />
