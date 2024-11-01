@@ -17,7 +17,7 @@
     <dependencies>
         <dependency id="HarfBuzzSharp" version="7.3.0.1" />
         <dependency id="Markdig" version="0.35.0" />
-        <dependency id="VL.Skia" version="2024.6.60" />
+        <dependency id="VL.Skia" version="2024.6.6" />
         <dependency id="HarfBuzzSharp" version="7.3.0.1" />
     </dependencies>
   </metadata>
