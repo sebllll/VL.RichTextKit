@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UKk1uPKQy6xQLRXslbHJT7" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
-  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="UKk1uPKQy6xQLRXslbHJT7" LanguageVersion="2024.6.7-0310-g6266ca42c1" Version="0.128">
+  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0310-g6266ca42c1" />
   <Patch Id="Inr4myH1EuIOgvLat3jDBm">
     <Canvas Id="VeIO80iuUTpOw2xK0X2x9k" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -73,7 +73,7 @@
             <Pin Id="IZNVbn3vrZvOEhVR3aNi2N" Name="HaloWidth" Kind="InputPin" />
             <Pin Id="NWKrgeAsEsuMcFiuq4uDgJ" Name="HaloColor" Kind="InputPin" />
             <Pin Id="CHzbie91YrPQdrzbo1euC4" Name="Output" Kind="OutputPin" />
-            <Pin Id="JoKqUml1rsGNh3qbbvDo9k" Name="TextDirection" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JoKqUml1rsGNh3qbbvDo9k" Name="TextDirection" Kind="InputPin" />
           </Node>
           <Pad Id="J0lXH5ZCVusNkX1KgBThaq" Comment="Font Size" Bounds="626,209,35,15" ShowValueBox="true" isIOBox="true" Value="18">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1233,6 +1233,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0217-gb4f7c1f3e0" />
-  <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../../../Users/seblh/AppData/Local/vvvv/gamma-preview/nugets/VL.RichTextKit.0.1.4/VL.RichTextKit.vl" />
+  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0310-g6266ca42c1" />
+  <NugetDependency Id="RXGUb7LzZ3SMlLxnwwUv5t" Location="VL.RichTextKit" Version="0.1.5" />
 </Document>
