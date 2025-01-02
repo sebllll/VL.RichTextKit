@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
-  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HqSBFokCXQXP7pxMBbZLbw" LanguageVersion="2024.6.7-0310-g6266ca42c1" Version="0.128">
+  <NugetDependency Id="ETOupK2B1ZLQHOYcmAEHVv" Location="VL.CoreLib" Version="2024.6.7-0310-g6266ca42c1" />
   <Patch Id="Inr4myH1EuIOgvLat3jDBm">
     <Canvas Id="VeIO80iuUTpOw2xK0X2x9k" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1136,9 +1136,9 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0217-gb4f7c1f3e0" />
-  <DocumentDependency Id="MtecZfQKi0SQWz7UYuHmfY" Location="../VL.RichTextKit.vl" />
+  <NugetDependency Id="Q7kiYHeJgxtOs7A13AjTtv" Location="VL.Skia" Version="2024.6.7-0310-g6266ca42c1" />
   <NugetDependency Id="RyqViPwT35ONZnqllXEuiM" Location="Markdig" Version="0.35.0" />
   <PlatformDependency Id="EdyifW71LlXMZLjW5wyqAg" Location="System.Xml.Linq" />
   <PlatformDependency Id="BN3HJn6xwniQaUfv4XmPLz" Location="System.Xml" />
+  <NugetDependency Id="LjHAGJUljZ7Phztwy6pJiE" Location="VL.RichTextKit" Version="0.1.5" />
 </Document>
