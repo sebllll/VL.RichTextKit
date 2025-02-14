@@ -4729,6 +4729,11 @@
             </summary>
             <param name="handle"></param>
         </member>
+        <member name="M:RichTextKit.Utils.SKFontArguments.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:RichTextKit.Utils.SKFontArguments"/> class.
+            </summary>
+        </member>
         <member name="P:RichTextKit.Utils.SKFontArguments.Weight">
             <summary>
             Gets or sets the variable weight of the font.

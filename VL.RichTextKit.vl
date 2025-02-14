@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2024.6.7-0217-gb4f7c1f3e0" Version="0.128">
-  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2024.6.7-0217-gb4f7c1f3e0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fqe7y4VT043MSZe8d73quZ" LanguageVersion="2025.7.0-0126-geaacba9216" Version="0.128">
+  <NugetDependency Id="DyhyY4bmEkHNbxGTVYvvvR" Location="VL.CoreLib" Version="2025.7.0-0126-geaacba9216" />
   <Patch Id="VVsICcGtikMOLwcuRByLNb">
     <Canvas Id="I69Wc2giL9sMTtWNS4mAdD" DefaultCategory="Skia.RichTextKit" CanvasType="FullCategory">
       <!--
@@ -15,19 +15,19 @@
         </p:NodeReference>
         <Patch Id="PbzAW2h3qjLO3ZqpdQcvXh">
           <Canvas Id="DKdrrAXeJaWQIOQhJn8LlP" CanvasType="Group">
-            <ControlPoint Id="AkDUHggNFHnPpFW4FBNQSc" Bounds="648,600" />
-            <ControlPoint Id="EzVIEnr1q3nOgNTjKGHpEc" Bounds="695,633" />
-            <ControlPoint Id="BmDoV3BgdegMJOQlyy8iZn" Bounds="600,577" />
+            <ControlPoint Id="AkDUHggNFHnPpFW4FBNQSc" Bounds="648,512" />
+            <ControlPoint Id="EzVIEnr1q3nOgNTjKGHpEc" Bounds="695,545" />
+            <ControlPoint Id="BmDoV3BgdegMJOQlyy8iZn" Bounds="600,489" />
             <ControlPoint Id="Rd8GpEgTPDnMapS77sop5F" Bounds="553,1639" />
-            <ControlPoint Id="UFYMbPBGTA4MdwkT2h5uRa" Bounds="742,659" />
-            <ControlPoint Id="IR4LyupUHg5MRxbBFE3CpN" Bounds="790,688" />
-            <ControlPoint Id="POmIlDGgsN0OHF4LLvMag3" Bounds="980,797" />
-            <ControlPoint Id="NAmHXeVJT3nLgDtkKaRvir" Bounds="837,716" />
-            <ControlPoint Id="KDFdSJeYePqPhuj1T2JWi7" Bounds="885,738" />
+            <ControlPoint Id="UFYMbPBGTA4MdwkT2h5uRa" Bounds="742,571" />
+            <ControlPoint Id="IR4LyupUHg5MRxbBFE3CpN" Bounds="790,600" />
+            <ControlPoint Id="POmIlDGgsN0OHF4LLvMag3" Bounds="980,709" />
+            <ControlPoint Id="NAmHXeVJT3nLgDtkKaRvir" Bounds="837,628" />
+            <ControlPoint Id="KDFdSJeYePqPhuj1T2JWi7" Bounds="885,650" />
             <Pad Id="LF0Y3DMyyIELjcL2GlkpP1" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="553,1603" />
             <ControlPoint Id="JanAn15fYE9PrS5ZTrdks8" Bounds="683,1629" />
             <Pad Id="Cy8PUtvB7KoPlQRlCCQcjx" SlotId="NoLCA5tPRPvLqKb0b80Blk" Bounds="683,1602" />
-            <Node Bounds="740,447,65,26" Id="T90txAmGM6ZLlBTOEg0Fdx">
+            <Node Bounds="740,332,65,26" Id="T90txAmGM6ZLlBTOEg0Fdx">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Create" />
@@ -35,8 +35,8 @@
               </p:NodeReference>
               <Pin Id="TpYj1mODZZNP4orpdAdFqg" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="R3XImw1KhNjNTmE3k0jKhr" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="742,503" />
-            <Node Bounds="334,976,992,581" Id="L0QOsNfXtYpQOhYXg9KHJF">
+            <Pad Id="R3XImw1KhNjNTmE3k0jKhr" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="742,388" />
+            <Node Bounds="334,976,1041,581" Id="L0QOsNfXtYpQOhYXg9KHJF">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
@@ -64,7 +64,7 @@
               <Patch Id="Cl57gabmYZfPL6N11hkIQZ" ManuallySortedPins="true">
                 <Patch Id="OwgBDg0UhcgODUFFvb5HTo" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="UxP7qRtpjBcOQvd8hLk0Iq" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="551,1472,762,19" Id="FOfhyArCjEeLmj9nkua5ct">
+                <Node Bounds="551,1472,812,19" Id="FOfhyArCjEeLmj9nkua5ct">
                   <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SetStyle" />
@@ -88,6 +88,7 @@
                   <Pin Id="UAMpcQSc0TYLNtK5wDv8Cp" Name="HaloColor" Kind="InputPin" />
                   <Pin Id="QWOdJTlCmtpNoSjeBEnaNR" Name="TextDirection" Kind="InputPin" />
                   <Pin Id="S0sqbNBNlgwNdU8sNn445s" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="B4IsqyGLL04Ovpuza2GmBi" Name="VariableFontWeight" Kind="InputPin" />
                 </Node>
                 <Node Bounds="346,1016,65,19" Id="LQKvIcppTLHN9sHuyN1F4k">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
@@ -193,9 +194,10 @@
               </Patch>
               <ControlPoint Id="DtLRcPWH6O6OMLNifxos9z" Bounds="1311,982" Alignment="Top" />
               <ControlPoint Id="FTWsNMLgwAQNuEn0deWwCr" Bounds="518,982" Alignment="Top" />
+              <ControlPoint Id="HMEjGlfG76sNcPfSsb8xPf" Bounds="1360,982" Alignment="Top" />
             </Node>
             <Pad Id="GKY0O3DSFYgOUXfKHbbNIj" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="410,814" />
-            <Node Bounds="593,447,65,26" Id="MghW6nfMZwYNipcMYyLzpc">
+            <Node Bounds="593,332,65,26" Id="MghW6nfMZwYNipcMYyLzpc">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Create" />
@@ -203,18 +205,18 @@
               </p:NodeReference>
               <Pin Id="KTme46YKWMaMfY8hNrdKgf" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="UdrPmZF6YKXL5WCV4PZR26" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="595,499" />
-            <Overlay Id="CszrmTYCc4xNXW1ZxxFgBl" Name="" Bounds="540,424,320,108">
+            <Pad Id="UdrPmZF6YKXL5WCV4PZR26" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="595,384" />
+            <Overlay Id="CszrmTYCc4xNXW1ZxxFgBl" Name="" Bounds="540,309,320,108">
               <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
             </Overlay>
-            <ControlPoint Id="BSbvvKRoCKEOx1x3zSP678" Bounds="932,765" />
-            <ControlPoint Id="GTw48POgPMhPfgD3hmP3Hr" Bounds="1027,825" />
-            <ControlPoint Id="OpZd505JOKiNVejJFhtkvq" Bounds="1074,852" />
-            <ControlPoint Id="CwNCDQSDYAYLKAp9SZdn2D" Bounds="1121,872" />
-            <ControlPoint Id="TMmE0RP2lfPMO9zY44KcuT" Bounds="1168,889" />
-            <ControlPoint Id="BCzT3MCQd3gLTOCRi4SZHM" Bounds="1215,918" />
-            <ControlPoint Id="EtFi2nIdyRiPWxwArvqkwa" Bounds="1263,939" />
-            <ControlPoint Id="JEqbLKL0T9fPr4SMLDl7om" Bounds="1310,954" />
+            <ControlPoint Id="BSbvvKRoCKEOx1x3zSP678" Bounds="932,677" />
+            <ControlPoint Id="GTw48POgPMhPfgD3hmP3Hr" Bounds="1027,737" />
+            <ControlPoint Id="OpZd505JOKiNVejJFhtkvq" Bounds="1074,764" />
+            <ControlPoint Id="CwNCDQSDYAYLKAp9SZdn2D" Bounds="1121,784" />
+            <ControlPoint Id="TMmE0RP2lfPMO9zY44KcuT" Bounds="1168,819" />
+            <ControlPoint Id="BCzT3MCQd3gLTOCRi4SZHM" Bounds="1215,842" />
+            <ControlPoint Id="EtFi2nIdyRiPWxwArvqkwa" Bounds="1263,869" />
+            <ControlPoint Id="JEqbLKL0T9fPr4SMLDl7om" Bounds="1311,899" />
             <Pad Id="N1knuT9KvirOLOyHbvfLf8" SlotId="TysIK171egtOMb7ftU2fbI" Bounds="613,1763" />
             <Node Bounds="537,1781,79,26" Id="NU37W0L6JgHPzaAmZ0Wqyl">
               <p:NodeReference LastCategoryFullName="Primitive.Delegates.Delegate (1 -&gt; 0)" LastDependency="VL.CoreLib.vl">
@@ -245,6 +247,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="DAvb87myZYmQduhqustaZU" Bounds="518,924" />
+            <ControlPoint Id="Va08p6No9wqOb6q6Jp6tnO" Bounds="1360,928" />
           </Canvas>
           <Link Id="VJW2Clb18elPdQNiD9ocTu" Ids="Ru3swLWZ8M3NOZ82iblUxB,AkDUHggNFHnPpFW4FBNQSc" IsHidden="true" />
           <Link Id="QS4Yemo6UOdMHcRBlIMtJt" Ids="P1qDIgP6u1TP3ytC8oxGLC,EzVIEnr1q3nOgNTjKGHpEc" IsHidden="true" />
@@ -354,6 +357,7 @@
             <Pin Id="HwRW2YVIdNcMNMPWM6e6nd" Name="HaloWidth" Kind="InputPin" Bounds="1216,918" />
             <Pin Id="QSBAQqoTPaWPzSVvahJTb1" Name="HaloColor" Kind="InputPin" Bounds="1263,939" DefaultValue="0, 0, 0, 0" />
             <Pin Id="LPN6FTmdiOGLgrJpxHQpbM" Name="TextDirection" Kind="InputPin" Bounds="1305,962" />
+            <Pin Id="Ry7oRFZcC5mMlgtFbFjozj" Name="VariableFontWeight" Kind="InputPin" />
           </Patch>
           <Patch Id="FWTuWxXNNTPLu6pMhYJ8am" Name="ChangeStyle" ParticipatingElements="Bj4eMvXexklNvbgb2IZQ3N">
             <Pin Id="ItXuaS5i1C5QZ89NhA8vSV" Name="Input" Kind="InputPin" />
@@ -379,6 +383,9 @@
           <Link Id="EJ55lMHc6neM5bzetVeNgB" Ids="QRbmueADZFKLlvI1boCFny,A41tCIV9CT3QDAdwGBNUjP" />
           <Link Id="ChTRUjnXubyPPmbVuD0kNl" Ids="SGdSmLHyvW2O5SePP2l3JI,KzHtWbo3q2rM95edtRSBQ0" />
           <Link Id="SMIRTizHpPKPryPk5L5jue" Ids="Egq96WOs30TL87C5SEBmQd,FyVBQ3JME7gLapcQCos2wz" />
+          <Link Id="RsUdC0GfR2IPpr2MJRQ7cA" Ids="HMEjGlfG76sNcPfSsb8xPf,B4IsqyGLL04Ovpuza2GmBi" />
+          <Link Id="Nbwc4B23QOdPMaXphbY5hS" Ids="Va08p6No9wqOb6q6Jp6tnO,HMEjGlfG76sNcPfSsb8xPf" />
+          <Link Id="Cg9Zwt17MLPOozgYSesHby" Ids="Ry7oRFZcC5mMlgtFbFjozj,Va08p6No9wqOb6q6Jp6tnO" IsHidden="true" />
         </Patch>
       </Node>
       <Canvas Id="TDTT9y26QIJLXH31J2tqFr" Name="Advanced" Position="259,369">
@@ -438,7 +445,7 @@
     ************************ SetStyle ************************
 
 -->
-              <Node Name="SetStyle" Bounds="559,290,701,1286" Id="Tjbg0p9ssmTNJ8eOaAM2Dk">
+              <Node Name="SetStyle" Bounds="559,290,812,1446" Id="Tjbg0p9ssmTNJ8eOaAM2Dk">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
                   <Choice Kind="OperationDefinition" Name="Operation" />
                   <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -589,7 +596,7 @@
                   <Link Id="PHpQY10yGx6N5U0Hb37opJ" Ids="Fyz74X5eEIDOHsItk8lLiz,LU0kV3VioxmLDmRrLRYgWM" />
                   <ControlPoint Id="TRRxG6qoAuFMb198xbN4J2" Bounds="771,699" />
                   <Link Id="U5bhAAhX4KeOBwNjuvAIB5" Ids="Fyz74X5eEIDOHsItk8lLiz,TRRxG6qoAuFMb198xbN4J2,OBKz7KW4sQVPaQp9BNPwlS" />
-                  <ControlPoint Id="UEcMatA3G1tMif9Ifp88Pf" Bounds="573,1559" />
+                  <ControlPoint Id="UEcMatA3G1tMif9Ifp88Pf" Bounds="573,1719" />
                   <Link Id="TGASNkisNriL3VMNyJZX6U" Ids="UEcMatA3G1tMif9Ifp88Pf,JQIve33TFZsQZL2L9K3K2f" IsHidden="true" />
                   <ControlPoint Id="TnPv6bYB17SNdakRwFxDX3" Bounds="573,457" />
                   <Link Id="OpF9waKPxRFOLAP6zxWKBd" Ids="TnPv6bYB17SNdakRwFxDX3,UUIciMuNSnaMLuN7chEDKL" />
@@ -759,7 +766,6 @@
                     <Pin Id="J1rSrTWG6wwP4KVx2BPnGa" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Link Id="DGxDgSJ2iK5McREXuT4Ohq" Ids="QbF62GNefVUMkE78FfAUhO,SRY8TRMjTwWQEZaG1dhisF" />
-                  <Link Id="Q7sAAbIx5TvOXtZuE1FOdL" Ids="J1rSrTWG6wwP4KVx2BPnGa,UEcMatA3G1tMif9Ifp88Pf" />
                   <ControlPoint Id="LtMnQOhRwZyPc4eNZWQGsu" Bounds="1175,1466" />
                   <Link Id="KPHl2z88BcCLYa7zXMFQiv" Ids="LtMnQOhRwZyPc4eNZWQGsu,Cwhko1011jEPY1nugnCFDQ" />
                   <Pin Id="CU4f8qmmqVSLqRMgPYMX8x" Name="TextDirection" Kind="InputPin" Bounds="1172,1185" />
@@ -833,6 +839,22 @@
                     <Pin Id="F0I1zPzzZ5lNvCxMbhGan9" Name="Empty" Kind="OutputPin" />
                   </Node>
                   <Link Id="LsDzgUdQO0tNyKhYYv6yyg" Ids="F0I1zPzzZ5lNvCxMbhGan9,GAflN29obRpLdFbf60x6LT" />
+                  <Node Bounds="571,1615,692,26" Id="Gcp5XjILbkhO0Ksv3CE3fl">
+                    <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationCallFlag" Name="SetVariableFontWeight" />
+                    </p:NodeReference>
+                    <Pin Id="CRo0GQBfBK7M2iRoonKoWN" Name="Input" Kind="InputPin" />
+                    <Pin Id="RVlEnxVIqclLWaV0UiGEOE" Name="Value" Kind="InputPin" />
+                    <Pin Id="LR39y3kVww3K9wdeL1xp5M" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Link Id="NgU5xrXbZUVN7zL7xmR3vy" Ids="J1rSrTWG6wwP4KVx2BPnGa,CRo0GQBfBK7M2iRoonKoWN" />
+                  <Link Id="IC1rggJ2q6sOOnqzTtmTxL" Ids="LR39y3kVww3K9wdeL1xp5M,UEcMatA3G1tMif9Ifp88Pf" />
+                  <ControlPoint Id="JDLCBYr7nKtOksbv9ZbZJH" Bounds="1260,1540" />
+                  <Link Id="HelaVLQsF4oLi6pBSTTpq8" Ids="JDLCBYr7nKtOksbv9ZbZJH,RVlEnxVIqclLWaV0UiGEOE" />
+                  <Pin Id="KRUDARGm0UWNS0Ibm7Ik3W" Name="VariableFontWeight" Kind="InputPin" />
+                  <Link Id="JKOrcE1FlnbMHKOgNtvkMi" Ids="KRUDARGm0UWNS0Ibm7Ik3W,JDLCBYr7nKtOksbv9ZbZJH" IsHidden="true" />
                 </Patch>
               </Node>
             </Canvas>
@@ -3193,12 +3215,12 @@
     ************************ AddRichString (internal) ************************
 
 -->
-        <Node Name="AddRichString (internal)" Bounds="2584,444,1293,1605" Id="FPOqC9mltnCOVVdCOC2h1l">
+        <Node Name="AddRichString (internal)" Bounds="2584,444,1505,1740" Id="FPOqC9mltnCOVVdCOC2h1l">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <Patch Id="EuY5uOGtBx1OFNzZd4eeDA">
-            <Node Bounds="2676,1614,1187,26" Id="DjQghqRznA1MvaVb6ZXP5V">
+            <Node Bounds="2676,1749,1401,26" Id="DjQghqRznA1MvaVb6ZXP5V">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Add" />
@@ -3225,8 +3247,11 @@
               <Pin Id="D2AiyQiyb0wOKknCLZwSwH" Name="Text Direction" Kind="InputPin" />
               <Pin Id="UfaZUISnLXpL5dbz1pCdl9" Name="Output" Kind="StateOutputPin" />
               <Pin Id="BwGtdSGOFDDM7rA0w6G5Fw" Name="Result" Kind="OutputPin" />
+              <Pin Id="QkerY3XOUWDOAf1E0Hpi14" Name="Variable Font Weight" Kind="InputPin" />
+              <Pin Id="B0v2tvCiKLGLzWu2SRYL2k" Name="Variable Font Width" Kind="InputPin" />
+              <Pin Id="AMeCiHQt9MxPm15P3RVDEt" Name="Variable Font Slant" Kind="InputPin" />
             </Node>
-            <Node Bounds="2756,1442,66,26" Id="N0Ej9859wTLOMzI1tvnSAq">
+            <Node Bounds="2756,1577,66,26" Id="N0Ej9859wTLOMzI1tvnSAq">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FontFamily" />
@@ -3236,7 +3261,7 @@
               <Pin Id="JEGjpqebyYnOo7v2klehcb" Name="Output" Kind="StateOutputPin" />
               <Pin Id="EpgV802e1MUMdPwJRzdswJ" Name="Font Family" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1397,135,26" Id="HNNwqcVZiqSNBAASzIE6bW">
+            <Node Bounds="2756,1532,135,26" Id="HNNwqcVZiqSNBAASzIE6bW">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FontSize" />
@@ -3246,7 +3271,7 @@
               <Pin Id="DPm7II9kfS4LbCurwbGA5A" Name="Output" Kind="StateOutputPin" />
               <Pin Id="J633EQZUUSwODh1pvWrs1A" Name="Font Size" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1082,615,26" Id="QcXVdfkaXnsPV1a29T2zOc">
+            <Node Bounds="2756,1217,615,26" Id="QcXVdfkaXnsPV1a29T2zOc">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="TextColor" />
@@ -3256,7 +3281,7 @@
               <Pin Id="KsoWBYNIM26LQQ6eBJyxO3" Name="Output" Kind="StateOutputPin" />
               <Pin Id="NvRqKdtPkCGQdKycyijI4I" Name="Text Color" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1352,201,26" Id="GKJkjjyC9xMPRoGtrAg6MW">
+            <Node Bounds="2756,1487,201,26" Id="GKJkjjyC9xMPRoGtrAg6MW">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FontWeight" />
@@ -3266,7 +3291,7 @@
               <Pin Id="AIhbI4kGGnuN10M99aospb" Name="Output" Kind="StateOutputPin" />
               <Pin Id="GzaeDmmAc7yPvuVxi3Gy4U" Name="Font Weight" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1262,341,26" Id="VRgSUxvMoFHOKWxBwVyNNM">
+            <Node Bounds="2756,1397,341,26" Id="VRgSUxvMoFHOKWxBwVyNNM">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FontItalic" />
@@ -3276,7 +3301,7 @@
               <Pin Id="EBUBYdu7RyDPCDIORiS3dy" Name="Output" Kind="StateOutputPin" />
               <Pin Id="OJ1QFHDhlVQMnZ2bMYi2F5" Name="Font Italic" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1127,551,26" Id="B5mEtCZq8M0L1gDEKcstMQ">
+            <Node Bounds="2756,1262,551,26" Id="B5mEtCZq8M0L1gDEKcstMQ">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="LineHeight" />
@@ -3286,7 +3311,7 @@
               <Pin Id="Ep32VSSXIbuMp8aiXi2VYD" Name="Output" Kind="StateOutputPin" />
               <Pin Id="BzXBqvRQD8EMjH2iZts1XW" Name="Line Height" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1217,412,26" Id="NyXOL0rvlNZOMoiP1dQQUE">
+            <Node Bounds="2756,1352,412,26" Id="NyXOL0rvlNZOMoiP1dQQUE">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Underline" />
@@ -3296,7 +3321,7 @@
               <Pin Id="UFdz6ScUfxIO9OJUR2gJan" Name="Output" Kind="StateOutputPin" />
               <Pin Id="HoeWHaH3rqyNvoQtG7RaDy" Name="Underline" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,857,979,26" Id="AK4CRg3Y9mwLIGL9kgJIf9">
+            <Node Bounds="2756,992,979,26" Id="AK4CRg3Y9mwLIGL9kgJIf9">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="LetterSpacing" />
@@ -3306,7 +3331,7 @@
               <Pin Id="UDwJLBAdpahLzNXehGkXl5" Name="Output" Kind="StateOutputPin" />
               <Pin Id="SQZRoxTDN4ILxwpuFGqocZ" Name="Letter Spacing" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,812,1039,26" Id="ENrfB4cCWzpML93wLEmcGN">
+            <Node Bounds="2756,947,1039,26" Id="ENrfB4cCWzpML93wLEmcGN">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FontVariant" />
@@ -3341,7 +3366,7 @@
               <Pin Id="MscuTO6me7VOWPcuxbEQHn" Name="Margin" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="VWwG2trWKmEOz29Jy0KWKl" Bounds="2598,462" />
-            <Node Bounds="2756,992,751,26" Id="L5j54WZhTTbQSkwDpwflka">
+            <Node Bounds="2756,1127,751,26" Id="L5j54WZhTTbQSkwDpwflka">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3351,7 +3376,7 @@
               <Pin Id="K65l82Cj3GtLqS0wDQSWik" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Nog1ffOWK8NMyaYXOZ1Elg" Name="Halo Color" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1037,677,26" Id="CER26lvVdTOQOGhTbdgFA8">
+            <Node Bounds="2756,1172,677,26" Id="CER26lvVdTOQOGhTbdgFA8">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3361,7 +3386,7 @@
               <Pin Id="RIcUjkO6Pf0PFQIWTHHCY8" Name="Output" Kind="StateOutputPin" />
               <Pin Id="MmpST8Oc0hzLNJEbPg6Ctu" Name="Background Color" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,947,830,26" Id="CN4n1IiR91eNiYoZgeAGF6">
+            <Node Bounds="2756,1082,830,26" Id="CN4n1IiR91eNiYoZgeAGF6">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3371,7 +3396,7 @@
               <Pin Id="OvgM2cz5Mj2Qc4TvNVT4mX" Name="Output" Kind="StateOutputPin" />
               <Pin Id="RM1OiSdKV2dQP5HSCC0lwZ" Name="Halo Width" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,902,894,26" Id="IMjmJhXgpQwNM4pwWI3U4M">
+            <Node Bounds="2756,1037,894,26" Id="IMjmJhXgpQwNM4pwWI3U4M">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3381,7 +3406,7 @@
               <Pin Id="OEgdqmIAr1ALdqtaPaZTvL" Name="Output" Kind="StateOutputPin" />
               <Pin Id="EQWrEmbXuLvM0RY5y6csfl" Name="Halo Blur" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1172,482,26" Id="Ai8gYnsxPsNNjUZlF20DN3">
+            <Node Bounds="2756,1307,482,26" Id="Ai8gYnsxPsNNjUZlF20DN3">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3391,7 +3416,7 @@
               <Pin Id="Sij7pbynpWCM0QKR9VUEQI" Name="Output" Kind="StateOutputPin" />
               <Pin Id="SgCM90Xs0TJM300FaTfFry" Name="Strike Through" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2756,1307,271,26" Id="CN9TgxIDIy9O6B4bjKtLZi">
+            <Node Bounds="2756,1442,271,26" Id="CN9TgxIDIy9O6B4bjKtLZi">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3401,7 +3426,7 @@
               <Pin Id="GQz91z3nNrLLQn9ckcG5Ga" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Dc1t2pR1TC6OFFZXRLxAYx" Name="Font Width" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="A5xdPiTyRvEL3WG1XgQJ9c" Bounds="2712,1580" />
+            <ControlPoint Id="A5xdPiTyRvEL3WG1XgQJ9c" Bounds="2712,1715" />
             <Link Id="TKwjZZl0XfZOuMvBr1czhm" Ids="EpgV802e1MUMdPwJRzdswJ,GX0fPJn8He6MnQEb42DMY3" />
             <Link Id="SNigWhfhxNQP09jaJRD1Pz" Ids="DPm7II9kfS4LbCurwbGA5A,TmqOrT5YID6PuSDyM1C2R6" />
             <Link Id="Glzka081dTbNrG1eLUD67N" Ids="AIhbI4kGGnuN10M99aospb,OOLotcFcC6HNKlstRa2Hxf" />
@@ -3435,11 +3460,11 @@
             <Link Id="Qm3qrSIIEe7Ll09MrUkzrS" Ids="Dc1t2pR1TC6OFFZXRLxAYx,PONvZRfL0A9MLyzElWPAE9" />
             <Link Id="UPYIJZ4PL9mPdVaZSt3aM3" Ids="EBUBYdu7RyDPCDIORiS3dy,SS1YJJlgWnTLPlys4ZJg1U" />
             <Link Id="H4iytzqrf0POaIIOMcGopW" Ids="GQz91z3nNrLLQn9ckcG5Ga,Vw31xJNVHWQMyqS4aSrd8N" />
-            <ControlPoint Id="EBJiQrHPqpXMYTdoctlpkn" Bounds="2621,1349" />
+            <ControlPoint Id="EBJiQrHPqpXMYTdoctlpkn" Bounds="2621,1484" />
             <Link Id="PmfJe31z9vXMTd51hdHX9w" Ids="F746DPUn1fRQUZSznlRR4U,EBJiQrHPqpXMYTdoctlpkn" IsHidden="true" />
-            <ControlPoint Id="G1Ry44c2yepNrjQUP5dYDg" Bounds="2678,2032" />
+            <ControlPoint Id="G1Ry44c2yepNrjQUP5dYDg" Bounds="2678,2167" />
             <Link Id="BQ4ZfDOFfVlNVdBqOuR0pO" Ids="G1Ry44c2yepNrjQUP5dYDg,IkHKQfO1ca7OzyBMfMo7Wv" IsHidden="true" />
-            <Node Bounds="2756,767,1109,26" Id="BjswXmXbxH7O9afnOQn96K">
+            <Node Bounds="2756,902,1110,26" Id="BjswXmXbxH7O9afnOQn96K">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
@@ -3449,12 +3474,11 @@
               <Pin Id="KIFd7uelaLFOgOgI8prpIe" Name="Output" Kind="StateOutputPin" />
               <Pin Id="LKgEK27398bP4olx9cwuoo" Name="Text Direction" Kind="OutputPin" />
             </Node>
-            <Link Id="U4Tx7XxUBrFLOCtvJAkWmX" Ids="VsdJNIzR3xoPxA72kM83oQ,G8QQnoobPfcNmpUp6sT5Cy" />
             <Link Id="PRipfqOpGbHOtDmbFs73ze" Ids="KIFd7uelaLFOgOgI8prpIe,P81tEZ67jCWQTPBpW9Melp" />
             <Link Id="KLNNo2vQtimM6SQWX1CrfE" Ids="LKgEK27398bP4olx9cwuoo,D2AiyQiyb0wOKknCLZwSwH" />
             <ControlPoint Id="RLSdeHbMNXLL1GAGox32uk" Bounds="2945,696" />
             <Link Id="J36kAgedp8rQVAV9ro2hkG" Ids="RLSdeHbMNXLL1GAGox32uk,Qwpx73zjNXML3waoLRoCyb" IsHidden="true" />
-            <Node Bounds="2676,1727,864,26" Id="HIOcVelGspPLeLddnuOVXq">
+            <Node Bounds="2676,1862,864,26" Id="HIOcVelGspPLeLddnuOVXq">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Alignment" />
@@ -3465,7 +3489,7 @@
               <Pin Id="H6P5GIwuJrnPzIoLvsNyny" Name="Output" Kind="StateOutputPin" />
               <Pin Id="GYMpciiMj4zLHYd7l8Ff0x" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2676,1839,897,26" Id="Ti4EfLgz9rmPVhLbbC4joW">
+            <Node Bounds="2676,1974,897,26" Id="Ti4EfLgz9rmPVhLbbC4joW">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MarginTop" />
@@ -3476,7 +3500,7 @@
               <Pin Id="LLnsaDkW1gJLownwa1ZcnH" Name="Output" Kind="StateOutputPin" />
               <Pin Id="CIoG36E3CJHNm3MmEAz9rY" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2676,1879,935,26" Id="SqQ47fzurcwPtA9gfgGfZG">
+            <Node Bounds="2676,2014,935,26" Id="SqQ47fzurcwPtA9gfgGfZG">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MarginBottom" />
@@ -3487,7 +3511,7 @@
               <Pin Id="FgnQuQDfYE6PoQmU7SKd8I" Name="Output" Kind="StateOutputPin" />
               <Pin Id="HwEuB0YO9GVQVAThK648jA" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2676,1919,965,26" Id="Ei76FmkuierPXx7uEhiwyr">
+            <Node Bounds="2676,2054,965,26" Id="Ei76FmkuierPXx7uEhiwyr">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MarginLeft" />
@@ -3498,7 +3522,7 @@
               <Pin Id="BCopXduUCeULU1Fvt8Mbpw" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Td4VE3Z0HKpPAPcpzH0D0t" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="2676,1959,1007,26" Id="S0vwS43cwewLE5HKBr63E1">
+            <Node Bounds="2676,2094,1007,26" Id="S0vwS43cwewLE5HKBr63E1">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MarginRight" />
@@ -3509,7 +3533,7 @@
               <Pin Id="DL8IWSMtSSIPOQTEEIqQT8" Name="Output" Kind="StateOutputPin" />
               <Pin Id="UlPHST6wcM0P4JbGRn3rJl" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="3613,1692,105,26" Id="UZM3w8t23eFMk1wuUVfb73">
+            <Node Bounds="3613,1827,105,26" Id="UZM3w8t23eFMk1wuUVfb73">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Margin" LastDependency="VL.RichTextKit.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="RecordType" Name="Margin" />
@@ -3534,19 +3558,19 @@
             <Link Id="N0xcNZYKjSTNNIqKvN9c6R" Ids="JK3nHwQIh43LjfZvei3vNj,NJMifTsVbzFQXam5Hoqc1N" />
             <Link Id="Q5OwljCGrYBNs2V5G8mov1" Ids="MscuTO6me7VOWPcuxbEQHn,VDiRd6hro7nM2UrLKo4SfY" />
             <Link Id="PONFz4Jd6e7NdTGf0LUPAt" Ids="DL8IWSMtSSIPOQTEEIqQT8,G1Ry44c2yepNrjQUP5dYDg" />
-            <Node Bounds="2607,1379,88,212" Id="DmMHQXbBkrFO0452aftAlP">
+            <Node Bounds="2607,1514,88,212" Id="DmMHQXbBkrFO0452aftAlP">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
               <Pin Id="Jmr69vdu6bVMAz6RrfIujO" Name="Condition" Kind="InputPin" />
-              <ControlPoint Id="Sy0AtgDGtWFNwFY2A2wDva" Bounds="2621,1385" Alignment="Top" />
-              <ControlPoint Id="KtB8fN9rPi8MurvkGBvLiB" Bounds="2678,1585" Alignment="Bottom" />
+              <ControlPoint Id="Sy0AtgDGtWFNwFY2A2wDva" Bounds="2621,1520" Alignment="Top" />
+              <ControlPoint Id="KtB8fN9rPi8MurvkGBvLiB" Bounds="2678,1720" Alignment="Bottom" />
               <Patch Id="OgByxvbXMToOkG5AvqLWHh" ManuallySortedPins="true">
                 <Patch Id="Uuadn2cFJdFPq2FrzVlbIA" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="BDlHCENqjoLQVantFWe5OP" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="2619,1545,62,26" Id="GSmIp0TsbypO8V9MvxvJeJ">
+                <Node Bounds="2619,1680,62,26" Id="GSmIp0TsbypO8V9MvxvJeJ">
                   <p:NodeReference LastCategoryFullName="Skia.RichTextKit.RichString" LastDependency="VL.RichTextKit.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Paragraph" />
@@ -3592,13 +3616,50 @@
             <Link Id="QrQYFQLqzopP8uMTR6L1Om" Ids="JCKFSTUp6sZNEcAk6OtmmD,MzMhRoyEb2BQAGiF42or2c" />
             <Link Id="AAzDTfWaC23NR5rSrVSxYp" Ids="DyCe9ljy2ZhNfFNaTN8ku3,RLSdeHbMNXLL1GAGox32uk" />
             <Link Id="Psia8dgmwWKLbNyEeA9EpQ" Ids="IseZI5GQ22eNxHfBKekGB1,DyCe9ljy2ZhNfFNaTN8ku3" />
-            <ControlPoint Id="UHAHQsnFIH1PqPWtghM2DY" Bounds="2610,781" />
+            <ControlPoint Id="UHAHQsnFIH1PqPWtghM2DY" Bounds="2610,749" />
             <Link Id="BROKduSnj7RP6zyvoS1bVE" Ids="DyCe9ljy2ZhNfFNaTN8ku3,UHAHQsnFIH1PqPWtghM2DY,Jmr69vdu6bVMAz6RrfIujO" />
             <Pin Id="R4mSjwSmNFqMaqI7jpbth9" Name="Snippet" Kind="InputPin" Bounds="2062,902" />
             <Pin Id="F746DPUn1fRQUZSznlRR4U" Name="Input" Kind="InputPin" Bounds="3112,1905" />
             <Pin Id="BAUn36oM4ytPzWsuvHJ4au" Name="IsFirstParagraph" Kind="InputPin" Bounds="3003,660" />
             <Pin Id="IkHKQfO1ca7OzyBMfMo7Wv" Name="Output" Kind="OutputPin" Bounds="3115,2021" />
             <Pin Id="Qwpx73zjNXML3waoLRoCyb" Name="isNewPargraph" Kind="OutputPin" Bounds="3409,902" />
+            <Node Bounds="2756,859,1184,26" Id="HtSSetE926xMBnVecqHC8R">
+              <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="VariableFontWeight" />
+              </p:NodeReference>
+              <Pin Id="MiAOLVD1eVQL6zYV8tDHsF" Name="Input" Kind="StateInputPin" />
+              <Pin Id="H2UkEAB045lPNw0xBFs89U" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="BwAfpfRczOKPdYNuV16wVb" Name="Variable Font Weight" Kind="OutputPin" />
+            </Node>
+            <Link Id="TPb4OkTSpYsP50RFGyj6v2" Ids="H2UkEAB045lPNw0xBFs89U,G8QQnoobPfcNmpUp6sT5Cy" />
+            <Link Id="C24u5nOVjyJMz3fUcjT7GW" Ids="BwAfpfRczOKPdYNuV16wVb,QkerY3XOUWDOAf1E0Hpi14" />
+            <Node Bounds="2756,815,1252,26" Id="T8HYPQEXEk9N8ROYE2F5c0">
+              <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="VariableFontWidth" />
+              </p:NodeReference>
+              <Pin Id="FQHNueWl5tFNqCAis0LPu5" Name="Input" Kind="StateInputPin" />
+              <Pin Id="TEEFlr0EOfNNGEESwbR4L5" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="GeV6fw03RsWN6661QmWK8Q" Name="Variable Font Width" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="2756,772,1318,26" Id="QUbhXPKyHDFNTldGQS0JaX">
+              <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="ClassType" Name="Style" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="VariableFontSlant" />
+              </p:NodeReference>
+              <Pin Id="BzXGIFR05rrPd8RX6XCQdU" Name="Input" Kind="StateInputPin" />
+              <Pin Id="MtzSBXaodpqLV3OMw9LNj1" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="SO0ukzZp1zzQLhafiP8RJO" Name="Variable Font Slant" Kind="OutputPin" />
+            </Node>
+            <Link Id="EOgSi0yLAGLLLDPxBfBOcK" Ids="VsdJNIzR3xoPxA72kM83oQ,BzXGIFR05rrPd8RX6XCQdU" />
+            <Link Id="NpuIi1FklXYM5FY8Ir8iOP" Ids="MtzSBXaodpqLV3OMw9LNj1,FQHNueWl5tFNqCAis0LPu5" />
+            <Link Id="G4MdRYQDL3pLPYpgqPJNJm" Ids="TEEFlr0EOfNNGEESwbR4L5,MiAOLVD1eVQL6zYV8tDHsF" />
+            <Link Id="AkybZwEjJiDPYULIOGqfsi" Ids="SO0ukzZp1zzQLhafiP8RJO,AMeCiHQt9MxPm15P3RVDEt" />
+            <Link Id="GmK40YNH3kdNkPJZqiSfQw" Ids="GeV6fw03RsWN6661QmWK8Q,B0v2tvCiKLGLzWu2SRYL2k" />
           </Patch>
         </Node>
         <!--
@@ -3639,6 +3700,9 @@
               <Pin Id="JMemFJrV9dfMuw4hYy1hLx" Name="Text Direction" Kind="InputPin" />
               <Pin Id="GqkCLojg2jAMAwmH6ASLR7" Name="Output" Kind="StateOutputPin" />
               <Pin Id="QiBD19lYWJQOqPdsmq3mQy" Name="Result" Kind="OutputPin" />
+              <Pin Id="BZDu0h18XbVPzIOHcluoIG" Name="Variable Font Weight" Kind="InputPin" />
+              <Pin Id="Kk53BXvhiIHL7e5WMii5DD" Name="Variable Font Width" Kind="InputPin" />
+              <Pin Id="FVUDemQfTXaOTMyOmSyLZh" Name="Variable Font Slant" Kind="InputPin" />
             </Node>
             <Node Bounds="1529,1699,66,26" Id="MIdHuLeXwLQPJ5pFvTaLvy">
               <p:NodeReference LastCategoryFullName="Skia.RichTextKit.Style" LastDependency="VL.RichTextKit.vl">
@@ -5987,7 +6051,7 @@ And again, here's </Item>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2024.6.7-0217-gb4f7c1f3e0" />
+  <NugetDependency Id="StbDPmdij7sNsY2Bohf3Gm" Location="VL.Skia" IsFriend="true" Version="2025.7.0-0126-geaacba9216" />
   <NugetDependency Id="DWccySpLMv4LRGzCy44olm" Location="HarfBuzzSharp" Version="7.3.0.1" />
   <NugetDependency Id="E8Zo2KtxnRLQPiVGcIgBsc" Location="Markdig" Version="0.35.0" />
   <PlatformDependency Id="L17lLgcxK4VL7PkWQs4QI7" Location="System.Xml.Linq" />
