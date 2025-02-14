@@ -1401,6 +1401,14 @@
             Constructs a new FontMapper instnace
             </summary>
         </member>
+        <member name="M:RichTextKit.FontMapper.LoadPrivateFont(System.IO.Stream,System.String)">
+            <summary>
+            Loads a private font from a stream
+            </summary>
+            <param name="stream">The stream to load from</param>
+            <param name="familyName">An optional family name to override the font's built in name</param>
+            <returns>True if the font was successully loaded</returns>
+        </member>
         <member name="M:RichTextKit.FontMapper.TypefaceFromStyle(RichTextKit.IStyle,System.Boolean)">
             <summary>
             Maps a given style to a specific typeface
@@ -1817,7 +1825,22 @@
         </member>
         <member name="P:RichTextKit.IStyle.FontWidth">
             <summary>
-            The font weight for text in this run.
+            The font width for text in this run.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.IStyle.VariableFontWeight">
+            <summary>
+            The variable font weight for text in this run.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.IStyle.VariableFontWidth">
+            <summary>
+            The variable font width for text in this run.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.IStyle.VariableFontSlant">
+            <summary>
+            The variable font slant for text in this run.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.FontItalic">
@@ -1833,12 +1856,12 @@
         </member>
         <member name="P:RichTextKit.IStyle.StrikeThrough">
             <summary>
-            The strike through style for the text in this run
+            The strike through style for the text in this run.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.LineHeight">
             <summary>
-            The line height for text in this run as a multiplier (defaults to 1)
+            The line height for text in this run as a multiplier (defaults to 1).
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.TextColor">
@@ -1853,22 +1876,22 @@
         </member>
         <member name="P:RichTextKit.IStyle.HaloColor">
             <summary>
-            Color of the halo
+            Color of the halo.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.HaloWidth">
             <summary>
-            Width of halo
+            Width of halo.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.HaloBlur">
             <summary>
-            Blur of halo
+            Blur of halo.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.LetterSpacing">
             <summary>
-            Extra spacing between each character
+            Extra spacing between each character.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.FontVariant">
@@ -1878,12 +1901,12 @@
         </member>
         <member name="P:RichTextKit.IStyle.TextDirection">
             <summary>
-            Text direction override for this span
+            Text direction override for this span.
             </summary>
         </member>
         <member name="P:RichTextKit.IStyle.ReplacementCharacter">
             <summary>
-            Specifies a replacement character to be displayed (password mode)
+            Specifies a replacement character to be displayed (password mode).
             </summary>
         </member>
         <member name="T:RichTextKit.IStyleExtensions">
@@ -2026,7 +2049,7 @@
             <param name="text">The text to append</param>
             <returns></returns>
         </member>
-        <member name="M:RichTextKit.RichString.Add(System.String,System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection})">
+        <member name="M:RichTextKit.RichString.Add(System.String,System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
             <summary>
             Adds text with various style attributes changed
             </summary>
@@ -2430,6 +2453,13 @@
             information for a run of text.
             </summary>
         </member>
+        <member name="M:RichTextKit.Style.LoadFont(System.String,System.String)">
+            <summary>
+            Loads a font from a file and registers it for use in text rendering
+            </summary>
+            <param name="Path"></param>
+            <param name="Name"></param>
+        </member>
         <member name="M:RichTextKit.Style.Seal">
             <summary>
             Seals the style to prevent it from further modification
@@ -2453,6 +2483,21 @@
         <member name="P:RichTextKit.Style.FontWidth">
             <summary>
             The font width for text in this run (defaults to WidthStyle.Normal).
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Style.VariableFontWeight">
+            <summary>
+            The variable font weight for text in this run.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Style.VariableFontWidth">
+            <summary>
+            The variable font width for text in this run.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Style.VariableFontSlant">
+            <summary>
+            The variable font slant for text in this run.
             </summary>
         </member>
         <member name="P:RichTextKit.Style.FontItalic">
@@ -2519,7 +2564,7 @@
         <member name="P:RichTextKit.Style.ReplacementCharacter">
             <inheritdoc />
         </member>
-        <member name="M:RichTextKit.Style.Modify(System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection},System.Nullable{System.Char})">
+        <member name="M:RichTextKit.Style.Modify(System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection},System.Nullable{System.Char})">
             <summary>
             Modifies this style with one or more attribute changes and returns a new style
             </summary>
@@ -2532,6 +2577,9 @@
             <param name="fontSize">The new font size</param>
             <param name="fontWeight">The new font weight</param>
             <param name="fontWidth">The new font width</param>
+            <param name="variableFontWeight">The new variable font weight</param>
+            <param name="variableFontWidth">The new variable font width</param>
+            <param name="variableFontSlant">The new variable font slant</param>
             <param name="fontItalic">The new font italic</param>
             <param name="underline">The new underline style</param>
             <param name="strikeThrough">The new strike-through style</param>
@@ -2855,6 +2903,27 @@
             <param name="fontWidth">The new font width</param>
             <returns>An IStyle for the new style</returns>
         </member>
+        <member name="M:RichTextKit.StyleManager.VariableFontWeight(System.Int32)">
+            <summary>
+            Changes the variable font weight and returns an updated IStyle
+            </summary>
+            <param name="variableFontWeight">The new variable font weight</param>
+            <returns>An IStyle for the new style</returns>
+        </member>
+        <member name="M:RichTextKit.StyleManager.VariableFontWidth(System.Int32)">
+            <summary>
+            Changes the variable font width and returns an updated IStyle
+            </summary>
+            <param name="variableFontWidth">The new variable font width</param>
+            <returns>An IStyle for the new style</returns>
+        </member>
+        <member name="M:RichTextKit.StyleManager.VariableFontSlant(System.Int32)">
+            <summary>
+            Changes the variable font slant and returns an updated IStyle
+            </summary>
+            <param name="variableFontSlant">The new variable font slant</param>
+            <returns>An IStyle for the new style</returns>
+        </member>
         <member name="M:RichTextKit.StyleManager.FontItalic(System.Boolean)">
             <summary>
             Changes the font italic setting and returns an updated IStyle
@@ -2946,7 +3015,7 @@
             <param name="character">The new replacement character</param>
             <returns>An IStyle for the new style</returns>
         </member>
-        <member name="M:RichTextKit.StyleManager.Update(System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection},System.Nullable{System.Char})">
+        <member name="M:RichTextKit.StyleManager.Update(System.String,System.Nullable{System.Single},System.Nullable{System.Int32},System.Nullable{SkiaSharp.SKFontStyleWidth},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{RichTextKit.UnderlineStyle},System.Nullable{RichTextKit.StrikeThroughStyle},System.Nullable{System.Single},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{SkiaSharp.SKColor},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{RichTextKit.FontVariant},System.Nullable{RichTextKit.TextDirection},System.Nullable{System.Char})">
             <summary>
             Update the current style by applying one or more changes to the current
             style.
@@ -2955,6 +3024,9 @@
             <param name="fontSize">The new font size</param>
             <param name="fontWeight">The new font weight</param>
             <param name="fontWidth">The new font width</param>
+            <param name="variableFontWeight">The new variable font weight</param>
+            <param name="variableFontWidth">The new variable font width</param>
+            <param name="variableFontSlant">The new variable font slant</param>
             <param name="fontItalic">The new font italic</param>
             <param name="underline">The new underline style</param>
             <param name="strikeThrough">The new strike-through style</param>
@@ -3814,6 +3886,11 @@
             <param name="x">The xcoord relative to the text block</param>
             <param name="htr">HitTestResult to be filled out</param>
         </member>
+        <member name="M:RichTextKit.TextLine.CalculateLineMetrics">
+            <summary>
+            Update the calculation of MaxAscent and MaxDescent
+            </summary>
+        </member>
         <member name="F:RichTextKit.TextLine.RunsInternal">
             <summary>
             Internal List of runs
@@ -4635,6 +4712,49 @@
             <typeparam name="T">The element type</typeparam>
             <param name="list">The list to be checked</param>
             <param name="totalLength">The expected total length of the list of runs</param>
+        </member>
+        <member name="T:RichTextKit.Utils.SKFontArguments">
+            <summary>
+            Represents the font arguments for a typeface.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Utils.SKFontArguments.Handle">
+            <summary>
+            Gets the handle for the font arguments.
+            </summary>
+        </member>
+        <member name="M:RichTextKit.Utils.SKFontArguments.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RichTextKit.Utils.SKFontArguments"/> class.
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="P:RichTextKit.Utils.SKFontArguments.Weight">
+            <summary>
+            Gets or sets the variable weight of the font.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Utils.SKFontArguments.Width">
+            <summary>
+            Gets or sets the variable width of the font.
+            </summary>
+        </member>
+        <member name="P:RichTextKit.Utils.SKFontArguments.Slant">
+            <summary>
+            Gets or sets the variable slant of the font.
+            </summary>
+        </member>
+        <member name="M:RichTextKit.Utils.SKFontArguments.CreateHandle">
+            <summary>
+            Method to create a handle for the font arguments
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:RichTextKit.Utils.SKFontArguments.Finalize">
+            <summary>
+            Finalizer for the <see cref="T:RichTextKit.Utils.SKFontArguments"/> class.
+            </summary>
         </member>
         <member name="T:RichTextKit.Utils.Slice`1">
             <summary>
